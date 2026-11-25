@@ -35,3 +35,7 @@ d02cf345e3616d4c1b60b42e94f3595beb0e3505087b33999e05e78b45a706c6  ./specificatio
 e7107e275135f83cdeabfe40249454f94fab61e946ed282c2a783e5507aac1bd  ./prdc/schema_v3.py
 e064339b71217b75434d6bf893a1256e25396083f5d08a7adbc181b3ee414d6b  ./tests/test_schema_v3.py
 e52d12c8e1bcfc8f19af5732a08d0d39a72ef8280c83a896651e6cdaae64cbc6  ./specifications/APF-schema-v3-candidate.md
+3807d71c2f68f1174e2d44b01c877fa0057fbedb2377ba8efa1fe513c04aa9fd  ./prdc/backup.py
+a172b7d10e0b954ecf0118e973e28b321a19ed7de290277c407b791f24c10685  ./prdc/cmr.py
+0535cba4f421b2ef3256d1373ae5785c74f0c0572ab1027a2e48dce6cc8902e2  ./tests/test_backup_cmr.py
+f8cf247d46f096bd533c36551b0604f7a4452299fe01afe4c85a5b7b63b942e6  ./specifications/backup-cmr-candidate.md

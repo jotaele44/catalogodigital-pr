@@ -1,0 +1,17 @@
+{
+  "operation_id": "UDC-APF-0012-temporal",
+  "parent": "ebe199e35483a1eee2100b9c22653e2eff1616f4",
+  "prior_runs": [
+    45637903195,
+    45637893991
+  ],
+  "prior_result": "80/81",
+  "repair": "explicit local date-time checker; bounded UTC-aware temporal semantics; four additional test methods",
+  "qualification": "PENDING_EXACT_HEAD_CI",
+  "limitations": [
+    "Coarse precision and leap-second handling deferred; original lexical values must be preserved in source assertions.",
+    "Application semantic validator not yet wired into a production persistence path.",
+    "Native taxonomy bytes and freeze gates remain open."
+  ],
+  "freeze": "WITHHELD"
+}

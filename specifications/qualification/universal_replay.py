@@ -1,7 +1,8 @@
 """Bounded synthetic checks only; no external source qualification."""
 import json, sqlite3, unittest
 from pathlib import Path
-from jsonschema import Draft202012Validator, FormatChecker
+from jsonschema import Draft202012Validator
+from temporal_semantics import checker, validate_temporal, parse_timestamp
 root = Path(__file__).resolve().parents[1]
 tax = json.loads((root/'taxonomy/universal-taxonomy-v0.3.0.json').read_text())
 profiles = json.loads((root/'taxonomy/catalog-profile-crosswalk.json').read_text())['profiles']
@@ -21,7 +22,7 @@ class Qualification(unittest.TestCase):
         self.db.execute('INSERT INTO resource VALUES (?,?,?,?,?)',(i,'dataset','Synthetic','CANDIDATE','DRAFT'))
         self.db.execute('INSERT INTO source_binding VALUES (?,?,?,?,?,?)',(j,i,'test','dataset','one','global'))
         self.db.execute('INSERT INTO receipt VALUES (?,?,?,?,?,?)',(k,j,stamp,digest,1,'synthetic'))
-        self.v=Draft202012Validator(schema,format_checker=FormatChecker())
+        self.v=Draft202012Validator(schema,format_checker=checker())
     def tearDown(self): self.db.close()
     def test_schema(self): Draft202012Validator.check_schema(schema)
     def test_taxonomy(self):
@@ -44,6 +45,20 @@ class Qualification(unittest.TestCase):
         self.assertTrue(self.v.is_valid(dict(id=i,access='PUBLIC',redistribution='UNKNOWN',license_id=None,evidence_ref=None)))
     def test_temporal_shape(self):
         self.assertFalse(self.v.is_valid(dict(id=i,axis='OBSERVATION',start='invalid',end=None,precision='UNKNOWN')))
+    def test_explicit_calendar_validation(self):
+        for bad in ("2026-02-30T00:00:00Z","2026-01-01T00:00:00","2026-01-01T25:00:00Z","2026-01-01T00:00:00+01:99","2026-01-01T00:00:00-00:00"):
+            with self.subTest(bad=bad):
+                self.assertFalse(self.v.is_valid(dict(id=i,axis='OBSERVATION',start=bad,end=None,precision='INSTANT')))
+    def test_temporal_ordering(self):
+        with self.assertRaises(ValueError):
+            validate_temporal(dict(start='2026-01-02T00:00:00Z',end='2026-01-01T00:00:00Z',precision='INTERVAL'))
+    def test_offset_equivalence(self):
+        self.assertTrue(validate_temporal(dict(start='2026-01-01T00:00:00-04:00',end='2026-01-01T04:00:00Z',precision='INSTANT')))
+    def test_unknown_and_coarse_precision(self):
+        self.assertTrue(validate_temporal(dict(start=None,end=None,precision='UNKNOWN')))
+        for precision in ('UNKNOWN','DAY','MONTH','YEAR'):
+            with self.subTest(precision=precision), self.assertRaises(ValueError):
+                validate_temporal(dict(start=stamp,end=None,precision=precision))
     def test_native_uniqueness(self):
         with self.assertRaises(sqlite3.IntegrityError): self.db.execute('INSERT INTO source_binding VALUES (?,?,?,?,?,?)',(l,i,'test','dataset','one','global'))
     def test_receipt_immutable(self):

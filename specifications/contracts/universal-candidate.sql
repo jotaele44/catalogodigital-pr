@@ -1,0 +1,14 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE resource(id TEXT PRIMARY KEY,kind TEXT NOT NULL CHECK(kind IN ('dataset','series','document','software','model','imagery','audio','video','stream','service','composite','opaque')),title TEXT NOT NULL,classification TEXT NOT NULL CHECK(classification IN ('CANDIDATE','UNCLASSIFIED','CONFLICTING')),status TEXT NOT NULL CHECK(status IN ('DRAFT','QUARANTINED')));
+CREATE TABLE subject(id TEXT PRIMARY KEY);
+CREATE TABLE resource_subject(resource_id TEXT NOT NULL REFERENCES resource(id),subject_id TEXT NOT NULL REFERENCES subject(id),PRIMARY KEY(resource_id,subject_id));
+CREATE TABLE source_binding(id TEXT PRIMARY KEY,resource_id TEXT NOT NULL REFERENCES resource(id),authority_namespace TEXT NOT NULL,native_type TEXT NOT NULL,native_id TEXT NOT NULL,scope TEXT NOT NULL,UNIQUE(authority_namespace,native_type,native_id,scope));
+CREATE TABLE receipt(id TEXT PRIMARY KEY,source_ref TEXT NOT NULL REFERENCES source_binding(id),acquired_at TEXT NOT NULL,sha256 TEXT NOT NULL CHECK(length(sha256)=64 AND sha256 NOT GLOB '*[^0-9a-f]*'),byte_count INTEGER NOT NULL CHECK(byte_count>=0),artifact_ref TEXT NOT NULL);
+CREATE TABLE version(id TEXT PRIMARY KEY,resource_id TEXT NOT NULL REFERENCES resource(id),label TEXT NOT NULL,previous_version_id TEXT,receipt_id TEXT NOT NULL REFERENCES receipt(id),state TEXT NOT NULL CHECK(state IN ('CANDIDATE','SUPERSEDED','WITHDRAWN')),UNIQUE(resource_id,id),UNIQUE(resource_id,label),CHECK(previous_version_id IS NULL OR previous_version_id<>id),FOREIGN KEY(resource_id,previous_version_id) REFERENCES version(resource_id,id));
+CREATE TABLE geography(id TEXT PRIMARY KEY,applicability TEXT NOT NULL CHECK(applicability IN ('DIRECT','INTERSECTING','CONTEXTUAL','GLOBAL','NONSPATIAL','UNKNOWN')),geometry_ref TEXT,crs TEXT,authority_ref TEXT,evidence_ref TEXT REFERENCES receipt(id));
+CREATE TABLE temporal(id TEXT PRIMARY KEY,axis TEXT NOT NULL CHECK(axis IN ('OBSERVATION','VALID','PUBLICATION','ACQUISITION','REVISION','FORECAST','FISCAL')),start TEXT,end TEXT,precision TEXT NOT NULL CHECK(precision IN ('INSTANT','DAY','MONTH','YEAR','INTERVAL','UNKNOWN')));
+CREATE TABLE rights(id TEXT PRIMARY KEY,access TEXT NOT NULL CHECK(access IN ('PUBLIC','AUTHENTICATED','RESTRICTED','COMMERCIAL','UNKNOWN')),redistribution TEXT NOT NULL CHECK(redistribution IN ('PERMITTED','PROHIBITED','CONDITIONAL','UNKNOWN')),license_id TEXT,evidence_ref TEXT REFERENCES receipt(id));
+CREATE TRIGGER receipt_no_update BEFORE UPDATE ON receipt BEGIN SELECT RAISE(ABORT,'immutable receipt'); END;
+CREATE TRIGGER receipt_no_delete BEFORE DELETE ON receipt BEGIN SELECT RAISE(ABORT,'immutable receipt'); END;
+CREATE TRIGGER version_no_update BEFORE UPDATE ON version BEGIN SELECT RAISE(ABORT,'immutable version; successor required'); END;
+CREATE TRIGGER version_no_delete BEFORE DELETE ON version BEGIN SELECT RAISE(ABORT,'immutable version'); END;

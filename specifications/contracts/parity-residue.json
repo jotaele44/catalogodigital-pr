@@ -1,0 +1,18 @@
+{
+  "status": "DRAFT_NOT_QUALIFIED",
+  "notes": [
+    "JSON Schema validates record shape; SQL validates persistence constraints. Neither alone guarantees full semantics.",
+    "UUID format and nonempty text are not fully enforced by SQL; date-time ordering needs normalized application validation; geography references and resource associations remain open.",
+    "Rights permission requires verified evidence before publication; no publication states accepted by this draft.",
+    "Version update prohibited pending event-based lifecycle contract; graph and source assertion reconciliation incomplete."
+  ],
+  "contracts": [
+    "resource",
+    "geography",
+    "temporal",
+    "rights",
+    "source_binding",
+    "receipt",
+    "version"
+  ]
+}

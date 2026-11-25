@@ -1,0 +1,56 @@
+{
+  "operation_id": "UDC-APF-0002",
+  "state": "CHECKPOINTED_DRAFT",
+  "base_commit": "92778b85504627273f1f47a64bf1eca83b98ead0",
+  "prior_candidate_commit": "d56aec894f49fcc450d69764b3f8a0414434a4af",
+  "architecture_commit": "fa75fbeaad52deb28c6ea181f7b19bb1c43caed2",
+  "evidence": {
+    "remote_tree_files": 3,
+    "remote_tree_truncated": false,
+    "prior_apf": "specifications/baselines/APF-v1.0.md",
+    "architecture": "specifications/UDC-architecture-v0.2.0-draft.md",
+    "historical_test_result": "reported 12/12; not replayed",
+    "archive_bytes": "not recovered"
+  },
+  "gates": {
+    "remote_identity": "PASS",
+    "candidate_apf_recovery": "PASS",
+    "complete_prior_artifact_recovery": "OPEN",
+    "taxonomy_reference_inventory": "PARTIAL",
+    "taxonomy_crosswalk": "PARTIAL",
+    "identity_contract": "DRAFT",
+    "profile_boundaries": "PARTIAL",
+    "machine_readable_schemas": "OPEN",
+    "representative_validation": "OPEN",
+    "security": "OPEN",
+    "standalone": "UNVERIFIED",
+    "durable_supervision": "UNVERIFIED",
+    "UDU_freeze": "WITHHELD",
+    "UDT_freeze": "WITHHELD",
+    "AUCD_freeze": "WITHHELD"
+  },
+  "next_eligible": [
+    {
+      "id": "UDC-APF-0003",
+      "task": "Recover original prototype archive and seed/parameter files; reconcile exact bytes and identifiers"
+    },
+    {
+      "id": "UDC-APF-0004",
+      "task": "Acquire pinned standards and native taxonomy snapshots; construct concept crosswalks"
+    },
+    {
+      "id": "UDC-APF-0005",
+      "task": "Build and test machine-readable canonical contracts using representative fixtures",
+      "depends_on": [
+        "UDC-APF-0003",
+        "UDC-APF-0004"
+      ]
+    }
+  ],
+  "supervisor": {
+    "persistent_job_verified": false,
+    "queue_running": false,
+    "checkpoint_kind": "git evidence only",
+    "continuity_certification": "WITHHELD"
+  }
+}

@@ -22,3 +22,4 @@ jobs:
         run: python -m unittest discover -s tests -v
       - run: python specifications/qualification/replay.py
       - run: python specifications/qualification/universal_replay.py
+      - run: python specifications/qualification/semantic_replay.py

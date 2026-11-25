@@ -1,0 +1,513 @@
+[
+  {
+    "code": "REG001",
+    "name": "institution",
+    "owner": "institution",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG002",
+    "name": "authority",
+    "owner": "institution",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG003",
+    "name": "organizational_unit",
+    "owner": "organizational_unit",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG004",
+    "name": "program",
+    "owner": "program",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG005",
+    "name": "jurisdiction",
+    "owner": "jurisdiction",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG006",
+    "name": "custodian",
+    "owner": "institution",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG007",
+    "name": "publisher",
+    "owner": "institution",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG008",
+    "name": "information_system",
+    "owner": "information_system",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG009",
+    "name": "institutional_collection",
+    "owner": "collection",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG010",
+    "name": "public_records_access",
+    "owner": "endpoint",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG011",
+    "name": "source",
+    "owner": "source",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG012",
+    "name": "dataset",
+    "owner": "dataset",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG013",
+    "name": "dataset_version",
+    "owner": "dataset_version",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG014",
+    "name": "endpoint",
+    "owner": "endpoint",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG015",
+    "name": "service",
+    "owner": "endpoint",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG016",
+    "name": "distribution",
+    "owner": "distribution",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG017",
+    "name": "digital_asset",
+    "owner": "digital_asset",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG018",
+    "name": "file_format",
+    "owner": "file_format",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG019",
+    "name": "layer",
+    "owner": "layer",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG020",
+    "name": "table",
+    "owner": "table",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG021",
+    "name": "native_field",
+    "owner": "native_field",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG022",
+    "name": "schema",
+    "owner": "schema",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG023",
+    "name": "vocabulary",
+    "owner": "vocabulary",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG024",
+    "name": "classification",
+    "owner": "classification",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG025",
+    "name": "update_cadence",
+    "owner": "update_cadence",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG026",
+    "name": "document",
+    "owner": "document",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG027",
+    "name": "publication",
+    "owner": "document",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG028",
+    "name": "author",
+    "owner": "author",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG029",
+    "name": "bibliographic_collection",
+    "owner": "collection",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG030",
+    "name": "archival_holding",
+    "owner": "archival_holding",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG031",
+    "name": "series",
+    "owner": "series",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG032",
+    "name": "edition",
+    "owner": "dataset_version",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG033",
+    "name": "document_component",
+    "owner": "document_component",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG034",
+    "name": "page_figure_table",
+    "owner": "document_component",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG035",
+    "name": "citation",
+    "owner": "citation",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG036",
+    "name": "documentary_extraction",
+    "owner": "documentary_extraction",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG037",
+    "name": "historical_map",
+    "owner": "digital_asset",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG038",
+    "name": "imagery_catalog",
+    "owner": "digital_asset",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG039",
+    "name": "scientific_research",
+    "owner": "document",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG040",
+    "name": "documentary_access",
+    "owner": "endpoint",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG041",
+    "name": "knowledge_domain",
+    "owner": "knowledge_domain",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG042",
+    "name": "subject",
+    "owner": "subject",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG043",
+    "name": "entity_family",
+    "owner": "entity_family",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG044",
+    "name": "concept",
+    "owner": "concept",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG045",
+    "name": "canonical_field",
+    "owner": "canonical_field",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG046",
+    "name": "parameter",
+    "owner": "parameter",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG047",
+    "name": "geographic_reference",
+    "owner": "geographic_reference",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG048",
+    "name": "temporal_reference",
+    "owner": "temporal_reference",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG049",
+    "name": "relationship",
+    "owner": "relationship",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG050",
+    "name": "cross_catalog_reference",
+    "owner": "relationship",
+    "kind": "view_or_role",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG051",
+    "name": "evidence",
+    "owner": "evidence",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG052",
+    "name": "source_receipt",
+    "owner": "source_receipt",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG053",
+    "name": "verification",
+    "owner": "verification",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG054",
+    "name": "assertion",
+    "owner": "assertion",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG055",
+    "name": "transformation",
+    "owner": "transformation",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG056",
+    "name": "method",
+    "owner": "method",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG057",
+    "name": "quality",
+    "owner": "quality",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG058",
+    "name": "uncertainty",
+    "owner": "uncertainty",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG059",
+    "name": "contradiction",
+    "owner": "contradiction",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG060",
+    "name": "licensing",
+    "owner": "licensing",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG061",
+    "name": "gap",
+    "owner": "gap",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG062",
+    "name": "dependency",
+    "owner": "dependency",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG063",
+    "name": "denominator",
+    "owner": "denominator",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG064",
+    "name": "coverage",
+    "owner": "coverage",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG065",
+    "name": "certification_gate",
+    "owner": "certification_gate",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG066",
+    "name": "release",
+    "owner": "release",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG067",
+    "name": "publication_manifest",
+    "owner": "publication_manifest",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG068",
+    "name": "consumer",
+    "owner": "consumer",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG069",
+    "name": "execution_job",
+    "owner": "execution_job",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG070",
+    "name": "change_audit",
+    "owner": "change_audit",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG071",
+    "name": "collection",
+    "owner": "collection",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG072",
+    "name": "institutional_universe",
+    "owner": "institutional_universe",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  },
+  {
+    "code": "REG073",
+    "name": "publication_protocol",
+    "owner": "publication_protocol",
+    "kind": "logical_type",
+    "status": "DESIGN"
+  }
+]

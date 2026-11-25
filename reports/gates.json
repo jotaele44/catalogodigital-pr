@@ -1,0 +1,164 @@
+[
+  {
+    "id": "APG-01",
+    "name": "Standalone local skeleton",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "evidence": "reports/test-results.txt; local synthetic controls only"
+  },
+  {
+    "id": "APG-02",
+    "name": "Seed counts",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "evidence": "reports/test-results.txt; local synthetic controls only"
+  },
+  {
+    "id": "APG-03",
+    "name": "UUID uniqueness and immutability",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "evidence": "reports/test-results.txt; local synthetic controls only"
+  },
+  {
+    "id": "APG-04",
+    "name": "Basic foreign keys",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "evidence": "reports/test-results.txt; local synthetic controls only"
+  },
+  {
+    "id": "APG-05",
+    "name": "Candidate link fail closed",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "evidence": "reports/test-results.txt; local synthetic controls only"
+  },
+  {
+    "id": "APG-06",
+    "name": "Unknown denominator",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "evidence": "reports/test-results.txt; local synthetic controls only"
+  },
+  {
+    "id": "APG-07",
+    "name": "Full specialized contracts",
+    "status": "OPEN",
+    "scope": "APF"
+  },
+  {
+    "id": "APG-08",
+    "name": "Bilingual taxonomy and metadata",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "19 metadata definitions translated (draft); taxonomy and semantic schemas OPEN."
+  },
+  {
+    "id": "APG-09",
+    "name": "Official municipal verification",
+    "status": "OPEN",
+    "scope": "APF"
+  },
+  {
+    "id": "APG-10",
+    "name": "Live direct link qualification",
+    "status": "OPEN",
+    "scope": "APF"
+  },
+  {
+    "id": "APG-11",
+    "name": "Relationship cardinality and lifecycle",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "Typed relationships, maximum canonical parents and cycles tested; minimum cardinality, audit history and complete lifecycle OPEN."
+  },
+  {
+    "id": "APG-12",
+    "name": "Security and authorization",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "Candidate URL pattern checks only; network safety, authorization and threat model OPEN."
+  },
+  {
+    "id": "APG-13",
+    "name": "Rights and evidence qualification",
+    "status": "OPEN",
+    "scope": "APF"
+  },
+  {
+    "id": "APG-14",
+    "name": "Search and performance",
+    "status": "OPEN",
+    "scope": "APF"
+  },
+  {
+    "id": "APG-15",
+    "name": "Durable execution",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "No durable supervisor. All 10 mandatory durability tests OPEN."
+  },
+  {
+    "id": "APG-16",
+    "name": "Remote repository and CI",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "Remote base observed; candidate hosted exact-head CI and merge not qualified."
+  },
+  {
+    "id": "APG-17",
+    "name": "Complete consolidated gate crosswalk",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "30-component crosswalk drafted; independent completeness assessment OPEN."
+  },
+  {
+    "id": "APG-18",
+    "name": "Canonical registry owner closure",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "detail": "73/73 types structurally valid; no dangling owners.",
+    "evidence": "reports/test-results.txt"
+  },
+  {
+    "id": "APG-19",
+    "name": "Institutional universe structural contract",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "detail": "Closed/open count semantics, source receipt type and unique membership tested; source-native inventory reconciliation still OPEN.",
+    "evidence": "reports/test-results.txt"
+  },
+  {
+    "id": "APG-20",
+    "name": "Controlled format/protocol/access vocabularies",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "detail": "15 protocol families representable; no live adapter qualification.",
+    "evidence": "reports/test-results.txt"
+  },
+  {
+    "id": "APG-21",
+    "name": "Representative live source qualification",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "0/15 actual adapters qualified.",
+    "evidence": null
+  },
+  {
+    "id": "APG-22",
+    "name": "Complete institutional and geographic coverage contracts",
+    "status": "OPEN",
+    "scope": "APF",
+    "detail": "14 domains and 78 municipal seeds; official denominator and applicability proof absent.",
+    "evidence": null
+  },
+  {
+    "id": "APG-23",
+    "name": "Schema drift and migration guard",
+    "status": "PASS",
+    "scope": "PROTOTYPE",
+    "detail": "Unknown legacy schema refused; ordinary schema drift detected; no production migration.",
+    "evidence": "reports/test-results.txt"
+  }
+]

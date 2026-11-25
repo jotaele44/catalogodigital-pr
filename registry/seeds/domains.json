@@ -1,0 +1,602 @@
+[
+  {
+    "code": "K001",
+    "family": "Earth sciences",
+    "label_en": "Geography"
+  },
+  {
+    "code": "K002",
+    "family": "Earth sciences",
+    "label_en": "Cartography"
+  },
+  {
+    "code": "K003",
+    "family": "Earth sciences",
+    "label_en": "Geodesy"
+  },
+  {
+    "code": "K004",
+    "family": "Earth sciences",
+    "label_en": "Topography"
+  },
+  {
+    "code": "K005",
+    "family": "Earth sciences",
+    "label_en": "Remote sensing"
+  },
+  {
+    "code": "K006",
+    "family": "Earth sciences",
+    "label_en": "Geology"
+  },
+  {
+    "code": "K007",
+    "family": "Earth sciences",
+    "label_en": "Geomorphology"
+  },
+  {
+    "code": "K008",
+    "family": "Earth sciences",
+    "label_en": "Geophysics"
+  },
+  {
+    "code": "K009",
+    "family": "Earth sciences",
+    "label_en": "Seismology"
+  },
+  {
+    "code": "K010",
+    "family": "Earth sciences",
+    "label_en": "Soil science"
+  },
+  {
+    "code": "K011",
+    "family": "Water and marine",
+    "label_en": "Hydrography"
+  },
+  {
+    "code": "K012",
+    "family": "Water and marine",
+    "label_en": "Hydrology"
+  },
+  {
+    "code": "K013",
+    "family": "Water and marine",
+    "label_en": "Hydrogeology"
+  },
+  {
+    "code": "K014",
+    "family": "Water and marine",
+    "label_en": "Groundwater"
+  },
+  {
+    "code": "K015",
+    "family": "Water and marine",
+    "label_en": "Karst"
+  },
+  {
+    "code": "K016",
+    "family": "Water and marine",
+    "label_en": "Oceanography"
+  },
+  {
+    "code": "K017",
+    "family": "Water and marine",
+    "label_en": "Bathymetry"
+  },
+  {
+    "code": "K018",
+    "family": "Water and marine",
+    "label_en": "Coastal processes"
+  },
+  {
+    "code": "K019",
+    "family": "Water and marine",
+    "label_en": "Watershed management"
+  },
+  {
+    "code": "K020",
+    "family": "Water and marine",
+    "label_en": "Water quality"
+  },
+  {
+    "code": "K021",
+    "family": "Atmosphere and hazards",
+    "label_en": "Meteorology"
+  },
+  {
+    "code": "K022",
+    "family": "Atmosphere and hazards",
+    "label_en": "Climatology"
+  },
+  {
+    "code": "K023",
+    "family": "Atmosphere and hazards",
+    "label_en": "Tropical cyclones"
+  },
+  {
+    "code": "K024",
+    "family": "Atmosphere and hazards",
+    "label_en": "Flooding"
+  },
+  {
+    "code": "K025",
+    "family": "Atmosphere and hazards",
+    "label_en": "Drought"
+  },
+  {
+    "code": "K026",
+    "family": "Atmosphere and hazards",
+    "label_en": "Landslides"
+  },
+  {
+    "code": "K027",
+    "family": "Atmosphere and hazards",
+    "label_en": "Earthquake hazards"
+  },
+  {
+    "code": "K028",
+    "family": "Atmosphere and hazards",
+    "label_en": "Tsunami hazards"
+  },
+  {
+    "code": "K029",
+    "family": "Atmosphere and hazards",
+    "label_en": "Coastal erosion"
+  },
+  {
+    "code": "K030",
+    "family": "Atmosphere and hazards",
+    "label_en": "Climate vulnerability"
+  },
+  {
+    "code": "K031",
+    "family": "Ecology",
+    "label_en": "Biodiversity"
+  },
+  {
+    "code": "K032",
+    "family": "Ecology",
+    "label_en": "Terrestrial ecology"
+  },
+  {
+    "code": "K033",
+    "family": "Ecology",
+    "label_en": "Marine ecology"
+  },
+  {
+    "code": "K034",
+    "family": "Ecology",
+    "label_en": "Freshwater ecology"
+  },
+  {
+    "code": "K035",
+    "family": "Ecology",
+    "label_en": "Forestry"
+  },
+  {
+    "code": "K036",
+    "family": "Ecology",
+    "label_en": "Wetlands"
+  },
+  {
+    "code": "K037",
+    "family": "Ecology",
+    "label_en": "Protected areas"
+  },
+  {
+    "code": "K038",
+    "family": "Ecology",
+    "label_en": "Wildlife"
+  },
+  {
+    "code": "K039",
+    "family": "Ecology",
+    "label_en": "Environmental quality"
+  },
+  {
+    "code": "K040",
+    "family": "Ecology",
+    "label_en": "Conservation and restoration"
+  },
+  {
+    "code": "K041",
+    "family": "Land and agriculture",
+    "label_en": "Agriculture"
+  },
+  {
+    "code": "K042",
+    "family": "Land and agriculture",
+    "label_en": "Agricultural production"
+  },
+  {
+    "code": "K043",
+    "family": "Land and agriculture",
+    "label_en": "Irrigation"
+  },
+  {
+    "code": "K044",
+    "family": "Land and agriculture",
+    "label_en": "Fisheries"
+  },
+  {
+    "code": "K045",
+    "family": "Land and agriculture",
+    "label_en": "Aquaculture"
+  },
+  {
+    "code": "K046",
+    "family": "Land and agriculture",
+    "label_en": "Land use"
+  },
+  {
+    "code": "K047",
+    "family": "Land and agriculture",
+    "label_en": "Land cover"
+  },
+  {
+    "code": "K048",
+    "family": "Land and agriculture",
+    "label_en": "Cadastral information"
+  },
+  {
+    "code": "K049",
+    "family": "Land and agriculture",
+    "label_en": "Land management"
+  },
+  {
+    "code": "K050",
+    "family": "Land and agriculture",
+    "label_en": "Natural resource utilization"
+  },
+  {
+    "code": "K051",
+    "family": "Utilities",
+    "label_en": "Electrical generation"
+  },
+  {
+    "code": "K052",
+    "family": "Utilities",
+    "label_en": "Electrical transmission"
+  },
+  {
+    "code": "K053",
+    "family": "Utilities",
+    "label_en": "Electrical distribution"
+  },
+  {
+    "code": "K054",
+    "family": "Utilities",
+    "label_en": "Renewable energy"
+  },
+  {
+    "code": "K055",
+    "family": "Utilities",
+    "label_en": "Hydroelectricity"
+  },
+  {
+    "code": "K056",
+    "family": "Utilities",
+    "label_en": "Fuel infrastructure"
+  },
+  {
+    "code": "K057",
+    "family": "Utilities",
+    "label_en": "Drinking-water infrastructure"
+  },
+  {
+    "code": "K058",
+    "family": "Utilities",
+    "label_en": "Wastewater infrastructure"
+  },
+  {
+    "code": "K059",
+    "family": "Utilities",
+    "label_en": "Solid waste"
+  },
+  {
+    "code": "K060",
+    "family": "Utilities",
+    "label_en": "Telecommunications"
+  },
+  {
+    "code": "K061",
+    "family": "Transport",
+    "label_en": "Roads and highways"
+  },
+  {
+    "code": "K062",
+    "family": "Transport",
+    "label_en": "Bridges"
+  },
+  {
+    "code": "K063",
+    "family": "Transport",
+    "label_en": "Public transportation"
+  },
+  {
+    "code": "K064",
+    "family": "Transport",
+    "label_en": "Rail infrastructure"
+  },
+  {
+    "code": "K065",
+    "family": "Transport",
+    "label_en": "Aviation"
+  },
+  {
+    "code": "K066",
+    "family": "Transport",
+    "label_en": "Airports"
+  },
+  {
+    "code": "K067",
+    "family": "Transport",
+    "label_en": "Airspace"
+  },
+  {
+    "code": "K068",
+    "family": "Transport",
+    "label_en": "Maritime transportation"
+  },
+  {
+    "code": "K069",
+    "family": "Transport",
+    "label_en": "Ports and harbors"
+  },
+  {
+    "code": "K070",
+    "family": "Transport",
+    "label_en": "Public facilities"
+  },
+  {
+    "code": "K071",
+    "family": "Human development",
+    "label_en": "Demographics"
+  },
+  {
+    "code": "K072",
+    "family": "Human development",
+    "label_en": "Population geography"
+  },
+  {
+    "code": "K073",
+    "family": "Human development",
+    "label_en": "Housing"
+  },
+  {
+    "code": "K074",
+    "family": "Human development",
+    "label_en": "Public health"
+  },
+  {
+    "code": "K075",
+    "family": "Human development",
+    "label_en": "Healthcare facilities"
+  },
+  {
+    "code": "K076",
+    "family": "Human development",
+    "label_en": "Education"
+  },
+  {
+    "code": "K077",
+    "family": "Human development",
+    "label_en": "Employment"
+  },
+  {
+    "code": "K078",
+    "family": "Human development",
+    "label_en": "Social services"
+  },
+  {
+    "code": "K079",
+    "family": "Human development",
+    "label_en": "Emergency management"
+  },
+  {
+    "code": "K080",
+    "family": "Human development",
+    "label_en": "Community development"
+  },
+  {
+    "code": "K081",
+    "family": "Economics",
+    "label_en": "Economic activity"
+  },
+  {
+    "code": "K082",
+    "family": "Economics",
+    "label_en": "Industry"
+  },
+  {
+    "code": "K083",
+    "family": "Economics",
+    "label_en": "Commerce"
+  },
+  {
+    "code": "K084",
+    "family": "Economics",
+    "label_en": "Tourism"
+  },
+  {
+    "code": "K085",
+    "family": "Economics",
+    "label_en": "Public finance"
+  },
+  {
+    "code": "K086",
+    "family": "Economics",
+    "label_en": "Federal funding"
+  },
+  {
+    "code": "K087",
+    "family": "Economics",
+    "label_en": "Grants and assistance"
+  },
+  {
+    "code": "K088",
+    "family": "Economics",
+    "label_en": "Procurement"
+  },
+  {
+    "code": "K089",
+    "family": "Economics",
+    "label_en": "Government contracts"
+  },
+  {
+    "code": "K090",
+    "family": "Economics",
+    "label_en": "Capital projects"
+  },
+  {
+    "code": "K091",
+    "family": "Government",
+    "label_en": "Government administration"
+  },
+  {
+    "code": "K092",
+    "family": "Government",
+    "label_en": "Institutional organization"
+  },
+  {
+    "code": "K093",
+    "family": "Government",
+    "label_en": "Legislation"
+  },
+  {
+    "code": "K094",
+    "family": "Government",
+    "label_en": "Administrative regulation"
+  },
+  {
+    "code": "K095",
+    "family": "Government",
+    "label_en": "Judicial records"
+  },
+  {
+    "code": "K096",
+    "family": "Government",
+    "label_en": "Permitting"
+  },
+  {
+    "code": "K097",
+    "family": "Government",
+    "label_en": "Environmental regulation"
+  },
+  {
+    "code": "K098",
+    "family": "Government",
+    "label_en": "Land-use planning"
+  },
+  {
+    "code": "K099",
+    "family": "Government",
+    "label_en": "Public policy"
+  },
+  {
+    "code": "K100",
+    "family": "Government",
+    "label_en": "Public records"
+  },
+  {
+    "code": "K101",
+    "family": "History",
+    "label_en": "Puerto Rican history"
+  },
+  {
+    "code": "K102",
+    "family": "History",
+    "label_en": "Archaeology"
+  },
+  {
+    "code": "K103",
+    "family": "History",
+    "label_en": "Architecture"
+  },
+  {
+    "code": "K104",
+    "family": "History",
+    "label_en": "Historical geography"
+  },
+  {
+    "code": "K105",
+    "family": "History",
+    "label_en": "Historical cartography"
+  },
+  {
+    "code": "K106",
+    "family": "History",
+    "label_en": "Historical photography"
+  },
+  {
+    "code": "K107",
+    "family": "History",
+    "label_en": "Cultural heritage"
+  },
+  {
+    "code": "K108",
+    "family": "History",
+    "label_en": "Historical newspapers"
+  },
+  {
+    "code": "K109",
+    "family": "History",
+    "label_en": "Genealogical and population archives"
+  },
+  {
+    "code": "K110",
+    "family": "History",
+    "label_en": "Historical infrastructure"
+  },
+  {
+    "code": "K111",
+    "family": "Science and institutions",
+    "label_en": "Scientific research"
+  },
+  {
+    "code": "K112",
+    "family": "Science and institutions",
+    "label_en": "Academic publications"
+  },
+  {
+    "code": "K113",
+    "family": "Science and institutions",
+    "label_en": "Engineering"
+  },
+  {
+    "code": "K114",
+    "family": "Science and institutions",
+    "label_en": "Astronomy"
+  },
+  {
+    "code": "K115",
+    "family": "Science and institutions",
+    "label_en": "Space observations"
+  },
+  {
+    "code": "K116",
+    "family": "Science and institutions",
+    "label_en": "Information systems"
+  },
+  {
+    "code": "K117",
+    "family": "Science and institutions",
+    "label_en": "Scientific instrumentation"
+  },
+  {
+    "code": "K118",
+    "family": "Science and institutions",
+    "label_en": "Technical standards"
+  },
+  {
+    "code": "K119",
+    "family": "Science and institutions",
+    "label_en": "Institutional archives"
+  },
+  {
+    "code": "K120",
+    "family": "Science and institutions",
+    "label_en": "Libraries and documentary collections"
+  }
+]

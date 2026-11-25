@@ -1,0 +1,25 @@
+name: Universal architecture qualification
+on:
+  pull_request:
+  push:
+    branches: ['architecture/udc-preimplementation-01']
+permissions:
+  contents: read
+jobs:
+  bounded:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install jsonschema==4.26.0
+      - name: Historical tests
+        working-directory: specifications/baselines/prdc-r2
+        run: python -m unittest discover -s tests -v
+      - run: python specifications/qualification/replay.py
+      - run: python specifications/qualification/universal_replay.py
+      - run: python specifications/qualification/semantic_replay.py

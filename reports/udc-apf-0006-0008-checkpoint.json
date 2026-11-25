@@ -1,0 +1,39 @@
+{
+  "operation_id": "UDC-APF-0006-0008",
+  "status": "PARTIAL",
+  "parent_commit": "9838c84eaa953d49c2934e77b8faf5f05548cf2e",
+  "taxonomy": {
+    "historical_subjects": 120,
+    "added": 28,
+    "primary_domains": 33,
+    "profiles": 74,
+    "facet_profiles": 10,
+    "native_bytes": "OPEN",
+    "external_crosswalk": "OPEN"
+  },
+  "contracts": {
+    "families": 7,
+    "sql_schema_parity": "PARTIAL",
+    "semantic_validation": "OPEN"
+  },
+  "qualification": {
+    "historical_receipt": "69/69 historical; current replay pending",
+    "new_test_methods": 12,
+    "remote_ci": "PENDING_OBSERVATION",
+    "real_source_fixtures": "OPEN",
+    "security": "OPEN"
+  },
+  "freeze": {
+    "UDU": "WITHHELD",
+    "UDT": "WITHHELD",
+    "AUCD": "WITHHELD"
+  },
+  "supervisor": "UNVERIFIED",
+  "next": [
+    "Acquire native source inventories with exact hashes",
+    "Finish semantic selectors and taxonomy crosswalk",
+    "Complete semantic and SQL parity",
+    "Verify exact-head CI",
+    "Qualify real-source fixtures and security"
+  ]
+}

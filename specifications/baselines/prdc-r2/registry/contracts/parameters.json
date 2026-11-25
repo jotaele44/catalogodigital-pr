@@ -1,0 +1,20 @@
+{
+  "municipalities": 78,
+  "municipal_categories": 40,
+  "municipal_cells": 3120,
+  "municipal_passes": 15,
+  "municipal_pass_assignments": 1170,
+  "knowledge_domains": 120,
+  "logical_registry_types": 73,
+  "bulk_acquisition_default": false,
+  "readiness_target": 0.99,
+  "mandatory_gate_target": 1.0,
+  "benchmark_associations": [
+    1000000,
+    10000000
+  ],
+  "benchmark_status": "UNTESTED",
+  "unknown_denominator": "NOT_MEASURABLE",
+  "institutional_domains": 14,
+  "reference_protocol_families": 15
+}

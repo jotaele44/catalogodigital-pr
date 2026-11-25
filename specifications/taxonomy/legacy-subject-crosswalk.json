@@ -1,0 +1,1115 @@
+{
+  "version": "0.1.0-draft",
+  "source_commit": "10359fd159867247f1c21959a4f7af739bde4bd0",
+  "scope": "120 recovered internal subjects; no native taxonomy inventory equivalence asserted",
+  "mappings": [
+    {
+      "seed_id": "K001",
+      "seed_label": "Geography",
+      "primary": "U05",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K002",
+      "seed_label": "Cartography",
+      "primary": "U05",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K003",
+      "seed_label": "Geodesy",
+      "primary": "U05",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K004",
+      "seed_label": "Topography",
+      "primary": "U05",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K005",
+      "seed_label": "Remote sensing",
+      "primary": "U05",
+      "secondary": [
+        "U16"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K006",
+      "seed_label": "Geology",
+      "primary": "U06",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K007",
+      "seed_label": "Geomorphology",
+      "primary": "U06",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K008",
+      "seed_label": "Geophysics",
+      "primary": "U06",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K009",
+      "seed_label": "Seismology",
+      "primary": "U06",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K010",
+      "seed_label": "Soil science",
+      "primary": "U13",
+      "secondary": [
+        "U06"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K011",
+      "seed_label": "Hydrography",
+      "primary": "U07",
+      "secondary": [
+        "U05"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K012",
+      "seed_label": "Hydrology",
+      "primary": "U07",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K013",
+      "seed_label": "Hydrogeology",
+      "primary": "U07",
+      "secondary": [
+        "U06"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K014",
+      "seed_label": "Groundwater",
+      "primary": "U07",
+      "secondary": [
+        "U06"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K015",
+      "seed_label": "Karst",
+      "primary": "U06",
+      "secondary": [
+        "U07"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K016",
+      "seed_label": "Oceanography",
+      "primary": "U09",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K017",
+      "seed_label": "Bathymetry",
+      "primary": "U09",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K018",
+      "seed_label": "Coastal processes",
+      "primary": "U09",
+      "secondary": [
+        "U06"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K019",
+      "seed_label": "Watershed management",
+      "primary": "U07",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K020",
+      "seed_label": "Water quality",
+      "primary": "U12",
+      "secondary": [
+        "U07"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K021",
+      "seed_label": "Meteorology",
+      "primary": "U08",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K022",
+      "seed_label": "Climatology",
+      "primary": "U08",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K023",
+      "seed_label": "Tropical cyclones",
+      "primary": "U08",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K024",
+      "seed_label": "Flooding",
+      "primary": "U07",
+      "secondary": [
+        "U32",
+        "U08"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K025",
+      "seed_label": "Drought",
+      "primary": "U08",
+      "secondary": [
+        "U07"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K026",
+      "seed_label": "Landslides",
+      "primary": "U06",
+      "secondary": [
+        "U32"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K027",
+      "seed_label": "Earthquake hazards",
+      "primary": "U06",
+      "secondary": [
+        "U32"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K028",
+      "seed_label": "Tsunami hazards",
+      "primary": "U09",
+      "secondary": [
+        "U32"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K029",
+      "seed_label": "Coastal erosion",
+      "primary": "U09",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K030",
+      "seed_label": "Climate vulnerability",
+      "primary": "U12",
+      "secondary": [
+        "U08"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K031",
+      "seed_label": "Biodiversity",
+      "primary": "U11",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K032",
+      "seed_label": "Terrestrial ecology",
+      "primary": "U12",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K033",
+      "seed_label": "Marine ecology",
+      "primary": "U12",
+      "secondary": [
+        "U09"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K034",
+      "seed_label": "Freshwater ecology",
+      "primary": "U12",
+      "secondary": [
+        "U07"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K035",
+      "seed_label": "Forestry",
+      "primary": "U13",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K036",
+      "seed_label": "Wetlands",
+      "primary": "U12",
+      "secondary": [
+        "U07"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K037",
+      "seed_label": "Protected areas",
+      "primary": "U12",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K038",
+      "seed_label": "Wildlife",
+      "primary": "U11",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K039",
+      "seed_label": "Environmental quality",
+      "primary": "U12",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K040",
+      "seed_label": "Conservation and restoration",
+      "primary": "U12",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K041",
+      "seed_label": "Agriculture",
+      "primary": "U13",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K042",
+      "seed_label": "Agricultural production",
+      "primary": "U13",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K043",
+      "seed_label": "Irrigation",
+      "primary": "U07",
+      "secondary": [
+        "U13"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K044",
+      "seed_label": "Fisheries",
+      "primary": "U13",
+      "secondary": [
+        "U09"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K045",
+      "seed_label": "Aquaculture",
+      "primary": "U13",
+      "secondary": [
+        "U09"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K046",
+      "seed_label": "Land use",
+      "primary": "U05",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K047",
+      "seed_label": "Land cover",
+      "primary": "U05",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K048",
+      "seed_label": "Cadastral information",
+      "primary": "U05",
+      "secondary": [
+        "U23"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K049",
+      "seed_label": "Land management",
+      "primary": "U05",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K050",
+      "seed_label": "Natural resource utilization",
+      "primary": "U19",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K051",
+      "seed_label": "Electrical generation",
+      "primary": "U19",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K052",
+      "seed_label": "Electrical transmission",
+      "primary": "U19",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K053",
+      "seed_label": "Electrical distribution",
+      "primary": "U19",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K054",
+      "seed_label": "Renewable energy",
+      "primary": "U19",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K055",
+      "seed_label": "Hydroelectricity",
+      "primary": "U19",
+      "secondary": [
+        "U07"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K056",
+      "seed_label": "Fuel infrastructure",
+      "primary": "U19",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K057",
+      "seed_label": "Drinking-water infrastructure",
+      "primary": "U17",
+      "secondary": [
+        "U07"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K058",
+      "seed_label": "Wastewater infrastructure",
+      "primary": "U17",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K059",
+      "seed_label": "Solid waste",
+      "primary": "U17",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K060",
+      "seed_label": "Telecommunications",
+      "primary": "U17",
+      "secondary": [
+        "U02"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K061",
+      "seed_label": "Roads and highways",
+      "primary": "U18",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K062",
+      "seed_label": "Bridges",
+      "primary": "U18",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K063",
+      "seed_label": "Public transportation",
+      "primary": "U18",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K064",
+      "seed_label": "Rail infrastructure",
+      "primary": "U18",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K065",
+      "seed_label": "Aviation",
+      "primary": "U18",
+      "secondary": [
+        "U16"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K066",
+      "seed_label": "Airports",
+      "primary": "U18",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K067",
+      "seed_label": "Airspace",
+      "primary": "U18",
+      "secondary": [
+        "U05"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K068",
+      "seed_label": "Maritime transportation",
+      "primary": "U18",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K069",
+      "seed_label": "Ports and harbors",
+      "primary": "U18",
+      "secondary": [
+        "U17"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K070",
+      "seed_label": "Public facilities",
+      "primary": "U17",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K071",
+      "seed_label": "Demographics",
+      "primary": "U25",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K072",
+      "seed_label": "Population geography",
+      "primary": "U25",
+      "secondary": [
+        "U05"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K073",
+      "seed_label": "Housing",
+      "primary": "U17",
+      "secondary": [
+        "U26"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K074",
+      "seed_label": "Public health",
+      "primary": "U15",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K075",
+      "seed_label": "Healthcare facilities",
+      "primary": "U15",
+      "secondary": [
+        "U17"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K076",
+      "seed_label": "Education",
+      "primary": "U27",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K077",
+      "seed_label": "Employment",
+      "primary": "U21",
+      "secondary": [
+        "U26"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K078",
+      "seed_label": "Social services",
+      "primary": "U26",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K079",
+      "seed_label": "Emergency management",
+      "primary": "U32",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K080",
+      "seed_label": "Community development",
+      "primary": "U26",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K081",
+      "seed_label": "Economic activity",
+      "primary": "U21",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K082",
+      "seed_label": "Industry",
+      "primary": "U21",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K083",
+      "seed_label": "Commerce",
+      "primary": "U21",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K084",
+      "seed_label": "Tourism",
+      "primary": "U21",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K085",
+      "seed_label": "Public finance",
+      "primary": "U20",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K086",
+      "seed_label": "Federal funding",
+      "primary": "U20",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K087",
+      "seed_label": "Grants and assistance",
+      "primary": "U20",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K088",
+      "seed_label": "Procurement",
+      "primary": "U22",
+      "secondary": [
+        "U20"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K089",
+      "seed_label": "Government contracts",
+      "primary": "U22",
+      "secondary": [
+        "U20",
+        "U23"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K090",
+      "seed_label": "Capital projects",
+      "primary": "U17",
+      "secondary": [
+        "U20"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K091",
+      "seed_label": "Government administration",
+      "primary": "U22",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K092",
+      "seed_label": "Institutional organization",
+      "primary": "U22",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K093",
+      "seed_label": "Legislation",
+      "primary": "U23",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K094",
+      "seed_label": "Administrative regulation",
+      "primary": "U23",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K095",
+      "seed_label": "Judicial records",
+      "primary": "U23",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K096",
+      "seed_label": "Permitting",
+      "primary": "U23",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K097",
+      "seed_label": "Environmental regulation",
+      "primary": "U23",
+      "secondary": [
+        "U12"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K098",
+      "seed_label": "Land-use planning",
+      "primary": "U05",
+      "secondary": [
+        "U22"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K099",
+      "seed_label": "Public policy",
+      "primary": "U22",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K100",
+      "seed_label": "Public records",
+      "primary": "U22",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K101",
+      "seed_label": "Puerto Rican history",
+      "primary": "U28",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K102",
+      "seed_label": "Archaeology",
+      "primary": "U28",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K103",
+      "seed_label": "Architecture",
+      "primary": "U16",
+      "secondary": [
+        "U30"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K104",
+      "seed_label": "Historical geography",
+      "primary": "U28",
+      "secondary": [
+        "U05"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K105",
+      "seed_label": "Historical cartography",
+      "primary": "U28",
+      "secondary": [
+        "U05"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K106",
+      "seed_label": "Historical photography",
+      "primary": "U28",
+      "secondary": [
+        "U31"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K107",
+      "seed_label": "Cultural heritage",
+      "primary": "U28",
+      "secondary": [
+        "U30"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K108",
+      "seed_label": "Historical newspapers",
+      "primary": "U31",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K109",
+      "seed_label": "Genealogical and population archives",
+      "primary": "U28",
+      "secondary": [
+        "U25"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K110",
+      "seed_label": "Historical infrastructure",
+      "primary": "U28",
+      "secondary": [
+        "U17"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K111",
+      "seed_label": "Scientific research",
+      "primary": "U27",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K112",
+      "seed_label": "Academic publications",
+      "primary": "U27",
+      "secondary": [
+        "U31"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K113",
+      "seed_label": "Engineering",
+      "primary": "U16",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K114",
+      "seed_label": "Astronomy",
+      "primary": "U10",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K115",
+      "seed_label": "Space observations",
+      "primary": "U10",
+      "secondary": [
+        "U05"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K116",
+      "seed_label": "Information systems",
+      "primary": "U02",
+      "secondary": [],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K117",
+      "seed_label": "Scientific instrumentation",
+      "primary": "U16",
+      "secondary": [
+        "U27"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K118",
+      "seed_label": "Technical standards",
+      "primary": "U16",
+      "secondary": [
+        "U23"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K119",
+      "seed_label": "Institutional archives",
+      "primary": "U27",
+      "secondary": [
+        "U28"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    },
+    {
+      "seed_id": "K120",
+      "seed_label": "Libraries and documentary collections",
+      "primary": "U27",
+      "secondary": [
+        "U28"
+      ],
+      "status": "CANDIDATE_INTERNAL_MAPPING",
+      "external_equivalence": null
+    }
+  ],
+  "unrepresented_proposed_domains": [
+    "U01",
+    "U03",
+    "U04",
+    "U14",
+    "U24",
+    "U29",
+    "U33"
+  ],
+  "notes": [
+    "Internal mappings are manually adjudicated candidates, not exact mappings to external standards.",
+    "Concept-level external reconciliation remains open.",
+    "No new K or REG IDs assigned."
+  ]
+}

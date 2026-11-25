@@ -1,0 +1,21 @@
+{
+  "operation_id": "UDC-APF-0014-semantic",
+  "parent": "0b88acaf7cfeeb2a43480a005b74d9de12845f07",
+  "prior_ci_runs": [
+    45639750617,
+    45639741835
+  ],
+  "prior_regression": "85/85 PASS",
+  "new_test_methods": 17,
+  "state": "COMMITTED_CANDIDATE_CI_PENDING",
+  "limitations": [
+    "Broad catalog membership is candidate discovery, not final profile predicates.",
+    "Geographic binding shape is not authoritative geographic verification.",
+    "Coarse bounds are date-only half-open intervals, not timestamp assertions; not yet wired to persistence.",
+    "Lifecycle QUALIFIED is internal candidate state, not authorization for public release.",
+    "Rights evidence ownership is enforced for resource_rights associations, not a complete legal rights adjudication.",
+    "SQLite replacement and privileged connection controls, event schema parity and full publication gate remain open.",
+    "Native acquisition not performed."
+  ],
+  "freeze": "WITHHELD"
+}

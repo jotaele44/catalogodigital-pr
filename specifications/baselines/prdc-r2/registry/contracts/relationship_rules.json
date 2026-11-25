@@ -1,0 +1,254 @@
+[
+  {
+    "role": "contains_unit",
+    "parent_kind": "institution",
+    "child_kind": "organizational_unit",
+    "max_parents": 1,
+    "acyclic": true
+  },
+  {
+    "role": "contains_unit",
+    "parent_kind": "institution",
+    "child_kind": "program",
+    "max_parents": 1,
+    "acyclic": true
+  },
+  {
+    "role": "contains_unit",
+    "parent_kind": "organizational_unit",
+    "child_kind": "organizational_unit",
+    "max_parents": 1,
+    "acyclic": true
+  },
+  {
+    "role": "contains_unit",
+    "parent_kind": "organizational_unit",
+    "child_kind": "program",
+    "max_parents": 1,
+    "acyclic": true
+  },
+  {
+    "role": "contains_unit",
+    "parent_kind": "program",
+    "child_kind": "organizational_unit",
+    "max_parents": 1,
+    "acyclic": true
+  },
+  {
+    "role": "contains_unit",
+    "parent_kind": "program",
+    "child_kind": "program",
+    "max_parents": 1,
+    "acyclic": true
+  },
+  {
+    "role": "publishes_source",
+    "parent_kind": "institution",
+    "child_kind": "source",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "publishes_source",
+    "parent_kind": "organizational_unit",
+    "child_kind": "source",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "publishes_source",
+    "parent_kind": "program",
+    "child_kind": "source",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "source_endpoint",
+    "parent_kind": "source",
+    "child_kind": "endpoint",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "collection_member",
+    "parent_kind": "collection",
+    "child_kind": "dataset",
+    "max_parents": null,
+    "acyclic": true
+  },
+  {
+    "role": "collection_member",
+    "parent_kind": "collection",
+    "child_kind": "document",
+    "max_parents": null,
+    "acyclic": true
+  },
+  {
+    "role": "collection_member",
+    "parent_kind": "collection",
+    "child_kind": "collection",
+    "max_parents": null,
+    "acyclic": true
+  },
+  {
+    "role": "has_version",
+    "parent_kind": "dataset",
+    "child_kind": "dataset_version",
+    "max_parents": 1,
+    "acyclic": false
+  },
+  {
+    "role": "has_version",
+    "parent_kind": "document",
+    "child_kind": "dataset_version",
+    "max_parents": 1,
+    "acyclic": false
+  },
+  {
+    "role": "has_distribution",
+    "parent_kind": "dataset_version",
+    "child_kind": "distribution",
+    "max_parents": 1,
+    "acyclic": false
+  },
+  {
+    "role": "has_file",
+    "parent_kind": "distribution",
+    "child_kind": "digital_asset",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "access_endpoint",
+    "parent_kind": "distribution",
+    "child_kind": "endpoint",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "access_endpoint",
+    "parent_kind": "digital_asset",
+    "child_kind": "endpoint",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "supersedes",
+    "parent_kind": "dataset_version",
+    "child_kind": "dataset_version",
+    "max_parents": null,
+    "acyclic": true
+  },
+  {
+    "role": "subject",
+    "parent_kind": "dataset",
+    "child_kind": "subject",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "subject",
+    "parent_kind": "dataset",
+    "child_kind": "knowledge_domain",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "subject",
+    "parent_kind": "document",
+    "child_kind": "subject",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "subject",
+    "parent_kind": "document",
+    "child_kind": "knowledge_domain",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "subject",
+    "parent_kind": "dataset_version",
+    "child_kind": "subject",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "subject",
+    "parent_kind": "dataset_version",
+    "child_kind": "knowledge_domain",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "geography",
+    "parent_kind": "dataset",
+    "child_kind": "geographic_reference",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "geography",
+    "parent_kind": "document",
+    "child_kind": "geographic_reference",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "geography",
+    "parent_kind": "dataset_version",
+    "child_kind": "geographic_reference",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "geography",
+    "parent_kind": "digital_asset",
+    "child_kind": "geographic_reference",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "source_assertion",
+    "parent_kind": "source",
+    "child_kind": "assertion",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "assertion_evidence",
+    "parent_kind": "assertion",
+    "child_kind": "evidence",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "assertion_evidence",
+    "parent_kind": "assertion",
+    "child_kind": "source_receipt",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "source_asset",
+    "parent_kind": "source",
+    "child_kind": "dataset",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "source_asset",
+    "parent_kind": "source",
+    "child_kind": "document",
+    "max_parents": null,
+    "acyclic": false
+  },
+  {
+    "role": "license",
+    "parent_kind": "distribution",
+    "child_kind": "licensing",
+    "max_parents": null,
+    "acyclic": false
+  }
+]

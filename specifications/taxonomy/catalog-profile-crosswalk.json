@@ -1,0 +1,844 @@
+{
+  "version": "0.1.0-draft",
+  "profiles": [
+    {
+      "id": "CDG",
+      "label_es": "Geográfico",
+      "domains": [
+        "U05"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDH",
+      "label_es": "Hidrográfico",
+      "domains": [
+        "U07"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDA",
+      "label_es": "Ambiental",
+      "domains": [
+        "U12"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDB",
+      "label_es": "Biológico",
+      "domains": [
+        "U11"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDGL",
+      "label_es": "Geológico",
+      "domains": [
+        "U06"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDM",
+      "label_es": "Meteorológico",
+      "domains": [
+        "U08"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDO",
+      "label_es": "Oceanográfico",
+      "domains": [
+        "U09"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDC",
+      "label_es": "Climatológico",
+      "domains": [
+        "U08"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDE",
+      "label_es": "Edafológico",
+      "domains": [
+        "U06",
+        "U13"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDHG",
+      "label_es": "Hidrogeológico",
+      "domains": [
+        "U07",
+        "U06"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDF",
+      "label_es": "Forestal",
+      "domains": [
+        "U13",
+        "U12"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDS",
+      "label_es": "Sismológico",
+      "domains": [
+        "U06"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDEA",
+      "label_es": "Aeroespacial",
+      "domains": [
+        "U10",
+        "U16"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDEC",
+      "label_es": "Ecológico",
+      "domains": [
+        "U12"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDCT",
+      "label_es": "Costero",
+      "domains": [
+        "U09",
+        "U05"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDMO",
+      "label_es": "Monetario",
+      "domains": [
+        "U20"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDFI",
+      "label_es": "Financiero",
+      "domains": [
+        "U20"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDECO",
+      "label_es": "Económico",
+      "domains": [
+        "U21"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDFIS",
+      "label_es": "Fiscal",
+      "domains": [
+        "U20",
+        "U22"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDCO",
+      "label_es": "Contractual",
+      "domains": [
+        "U22",
+        "U23",
+        "U20"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDIN",
+      "label_es": "Inmobiliario",
+      "domains": [
+        "U21",
+        "U05"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDCM",
+      "label_es": "Comercial",
+      "domains": [
+        "U21"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDAG",
+      "label_es": "Agrícola",
+      "domains": [
+        "U13"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDIF",
+      "label_es": "Infraestructural",
+      "domains": [
+        "U17"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDEN",
+      "label_es": "Energético",
+      "domains": [
+        "U19"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDTR",
+      "label_es": "Transporte",
+      "domains": [
+        "U18"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDTC",
+      "label_es": "Telecomunicaciones",
+      "domains": [
+        "U17",
+        "U31"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDSA",
+      "label_es": "Sanitario",
+      "domains": [
+        "U15"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDEME",
+      "label_es": "Emergencias",
+      "domains": [
+        "U32"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDUR",
+      "label_es": "Urbanístico",
+      "domains": [
+        "U05",
+        "U17"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDVI",
+      "label_es": "Vivienda",
+      "domains": [
+        "U17",
+        "U26"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDD",
+      "label_es": "Demográfico",
+      "domains": [
+        "U25"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDSO",
+      "label_es": "Social",
+      "domains": [
+        "U26"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDHI",
+      "label_es": "Histórico",
+      "domains": [
+        "U28"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDAR",
+      "label_es": "Arqueológico",
+      "domains": [
+        "U28"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDCU",
+      "label_es": "Cultural",
+      "domains": [
+        "U30",
+        "U28"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDED",
+      "label_es": "Educativo",
+      "domains": [
+        "U27"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDJU",
+      "label_es": "Jurídico",
+      "domains": [
+        "U23"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDAD",
+      "label_es": "Administrativo",
+      "domains": [
+        "U22"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDCI",
+      "label_es": "Científico",
+      "domains": [
+        "U27"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "research_context",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CDES",
+      "label_es": "Estadístico",
+      "domains": [
+        "U01"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "statistical_method_or_representation",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-AST",
+      "label_es": "Astronómico",
+      "domains": [
+        "U10"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-ATM",
+      "label_es": "Atmosférico",
+      "domains": [
+        "U08",
+        "U04"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-GEO",
+      "label_es": "Geodésico",
+      "domains": [
+        "U05"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-TOP",
+      "label_es": "Topográfico",
+      "domains": [
+        "U05"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-GPH",
+      "label_es": "Geofísico",
+      "domains": [
+        "U06",
+        "U03"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-GCH",
+      "label_es": "Geoquímico",
+      "domains": [
+        "U06",
+        "U04"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-LIM",
+      "label_es": "Limnológico",
+      "domains": [
+        "U07",
+        "U12"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-MAR",
+      "label_es": "Marino",
+      "domains": [
+        "U09",
+        "U11",
+        "U12"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-GEN",
+      "label_es": "Genético",
+      "domains": [
+        "U11"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-MIC",
+      "label_es": "Microbiológico",
+      "domains": [
+        "U11"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-EPI",
+      "label_es": "Epidemiológico",
+      "domains": [
+        "U15"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-NUT",
+      "label_es": "Nutricional",
+      "domains": [
+        "U14"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-IND",
+      "label_es": "Industrial",
+      "domains": [
+        "U21",
+        "U16"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-TEC",
+      "label_es": "Tecnológico",
+      "domains": [
+        "U16"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-LAB",
+      "label_es": "Laboral",
+      "domains": [
+        "U21",
+        "U26"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-TUR",
+      "label_es": "Turístico",
+      "domains": [
+        "U21"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-LOG",
+      "label_es": "Logístico",
+      "domains": [
+        "U18"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-CRI",
+      "label_es": "Criminalístico",
+      "domains": [
+        "U32",
+        "U23"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-ELE",
+      "label_es": "Electoral",
+      "domains": [
+        "U24"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-POL",
+      "label_es": "Político",
+      "domains": [
+        "U24"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-LIN",
+      "label_es": "Lingüístico",
+      "domains": [
+        "U29"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-ANT",
+      "label_es": "Antropológico",
+      "domains": [
+        "U26"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-SOC",
+      "label_es": "Sociológico",
+      "domains": [
+        "U26"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-DEP",
+      "label_es": "Deportivo",
+      "domains": [
+        "U30"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-BIB",
+      "label_es": "Bibliográfico",
+      "domains": [
+        "U27"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "bibliographic_resource",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-DOC",
+      "label_es": "Documental",
+      "domains": [
+        "U28",
+        "U27"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "document_resource",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-AV",
+      "label_es": "Audiovisual",
+      "domains": [
+        "U31",
+        "U30"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "audiovisual_representation",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-INF",
+      "label_es": "Informático",
+      "domains": [
+        "U02"
+      ],
+      "selector_kind": "subject_candidate",
+      "facet": null,
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-SEN",
+      "label_es": "Sensorial",
+      "domains": [
+        "U16"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "sensor_acquisition",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-EXP",
+      "label_es": "Experimental",
+      "domains": [
+        "U27"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "experimental_method",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-PRE",
+      "label_es": "Predictivo",
+      "domains": [
+        "U33"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "predictive_processing",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-ANO",
+      "label_es": "Anómalo",
+      "domains": [
+        "U33"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "anomaly_assertion",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    },
+    {
+      "id": "CD-MUL",
+      "label_es": "Multidisciplinario",
+      "domains": [
+        "U33"
+      ],
+      "selector_kind": "orthogonal_facet",
+      "facet": "multiple_subject_domains",
+      "status": "PROVISIONAL_RECONCILIATION",
+      "repository": "shared_reference"
+    }
+  ],
+  "note": "Candidate mapping; final semantic selectors and external reconciliation open."
+}

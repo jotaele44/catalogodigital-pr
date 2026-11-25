@@ -1,0 +1,53 @@
+{
+  "operation_id": "UDC-APF-0005",
+  "state": "PARTIAL_BOUNDED_SYNTHETIC_PASS",
+  "historical_recovery": {
+    "commit": "10359fd159867247f1c21959a4f7af739bde4bd0",
+    "transfer_sha256": "5e1ac0f00ee9142334db14a4d9fe3fa30b5933dda2d24bdfe350c1f0cd869cf8",
+    "files": 27,
+    "git_blobs_verified": 27,
+    "manifest_entries_verified": 26,
+    "legacy_apf_sha256": "2d9b751079f09e4ccfdf67c5eee39426cb2dc5071a7fe033285961a790cec391",
+    "predecessor_archive_sha256_expected": "71891d4cb5c29b5e14c64f84f91161841712bbb24d48f85f438c5af1ea7dcc1a",
+    "predecessor_zip_bytes": "OPEN",
+    "historical_tests_replayed": 48,
+    "subjects": 120,
+    "registry_types_and_roles": 73,
+    "metadata_fields": 19,
+    "municipal_seeds": 78,
+    "municipal_categories": 40
+  },
+  "taxonomy": {
+    "commit": "563ffd81db8fd8d3950f9b1d3e3e1fdd01179b30",
+    "internal_mappings": 120,
+    "proposed_domains_represented": 26,
+    "unrepresented": 7,
+    "native_acquisition": "BLOCKED_DNS",
+    "exact_external_mappings": 0
+  },
+  "qualification": {
+    "validator": "jsonschema 4.26.0 Draft202012Validator with FormatChecker",
+    "test_scope": "21 synthetic structural/semantic fixtures; existing historical graph tests separate",
+    "passed": 21,
+    "total": 21,
+    "schema_sha256": "a6692736f4b1d54624ad53ed788d0d2a9640326916e7bc1ea50f785eac827d95",
+    "fixtures_sha256": "79a365da2474ecaaab4483ba8e87cdf2f69a3abaff192e1ff78ce29fccbfc5b9",
+    "results_sha256": "d8e1d06166f12de4bac9a82353c6eaa34de38cdf4d4ba0bb08ced00cb09e27b4",
+    "live_adapters_qualified": 0
+  },
+  "open_gates": [
+    "original ZIP recovery",
+    "native taxonomy bytes and concept crosswalks",
+    "universal profiles beyond legacy subjects and kinds",
+    "full rights/temporal/geographic semantics",
+    "source evidence and identity reconciliation",
+    "SQL/schema minimum cardinalities and immutable relationship history",
+    "SSRF and security qualification",
+    "actual source fixtures",
+    "remote CI",
+    "durability"
+  ],
+  "freeze": "WITHHELD",
+  "production": "WITHHELD",
+  "supervisor": "UNVERIFIED"
+}

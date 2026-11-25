@@ -1,0 +1,1828 @@
+{
+  "version": "0.3.0-draft",
+  "status": "PROVISIONAL",
+  "domains": [
+    {
+      "id": "U01",
+      "label_en": "Mathematics, logic and formal sciences",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U02",
+      "label_en": "Computing and information sciences",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U03",
+      "label_en": "Physics",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U04",
+      "label_en": "Chemistry and materials",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U05",
+      "label_en": "Geography, cartography and geodesy",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U06",
+      "label_en": "Geology and geophysics",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U07",
+      "label_en": "Hydrology and hydrogeology",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U08",
+      "label_en": "Meteorology and climatology",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U09",
+      "label_en": "Oceanography and coastal sciences",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U10",
+      "label_en": "Astronomy and space sciences",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U11",
+      "label_en": "Biology and life sciences",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U12",
+      "label_en": "Ecology and environmental sciences",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U13",
+      "label_en": "Agriculture, forestry and fisheries",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U14",
+      "label_en": "Food and nutrition",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U15",
+      "label_en": "Medicine and health",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U16",
+      "label_en": "Engineering and technology",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U17",
+      "label_en": "Infrastructure and public utilities",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U18",
+      "label_en": "Transportation and logistics",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U19",
+      "label_en": "Energy and natural resources",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U20",
+      "label_en": "Monetary and financial information",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U21",
+      "label_en": "Economics, commerce and industry",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U22",
+      "label_en": "Government and public administration",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U23",
+      "label_en": "Law and regulation",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U24",
+      "label_en": "Politics and international relations",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U25",
+      "label_en": "Demography and population",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U26",
+      "label_en": "Social and behavioral sciences",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U27",
+      "label_en": "Education and research",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U28",
+      "label_en": "History, archaeology and heritage",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U29",
+      "label_en": "Language, philosophy and religion",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U30",
+      "label_en": "Arts, culture and recreation",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U31",
+      "label_en": "Communication and media",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U32",
+      "label_en": "Public safety, security and emergencies",
+      "kind": "domain",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "U33",
+      "label_en": "Multidisciplinary and emerging knowledge",
+      "kind": "domain",
+      "status": "PROPOSED"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "K001",
+      "label_en": "Geography",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K002",
+      "label_en": "Cartography",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K003",
+      "label_en": "Geodesy",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K004",
+      "label_en": "Topography",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K005",
+      "label_en": "Remote sensing",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [
+        "U16"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K006",
+      "label_en": "Geology",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U06"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K007",
+      "label_en": "Geomorphology",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U06"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K008",
+      "label_en": "Geophysics",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U06"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K009",
+      "label_en": "Seismology",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U06"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K010",
+      "label_en": "Soil science",
+      "legacy_family": "Earth sciences",
+      "parents": [
+        "U13"
+      ],
+      "related_domains": [
+        "U06"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K011",
+      "label_en": "Hydrography",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U07"
+      ],
+      "related_domains": [
+        "U05"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K012",
+      "label_en": "Hydrology",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U07"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K013",
+      "label_en": "Hydrogeology",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U07"
+      ],
+      "related_domains": [
+        "U06"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K014",
+      "label_en": "Groundwater",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U07"
+      ],
+      "related_domains": [
+        "U06"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K015",
+      "label_en": "Karst",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U06"
+      ],
+      "related_domains": [
+        "U07"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K016",
+      "label_en": "Oceanography",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U09"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K017",
+      "label_en": "Bathymetry",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U09"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K018",
+      "label_en": "Coastal processes",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U09"
+      ],
+      "related_domains": [
+        "U06"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K019",
+      "label_en": "Watershed management",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U07"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K020",
+      "label_en": "Water quality",
+      "legacy_family": "Water and marine",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [
+        "U07"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K021",
+      "label_en": "Meteorology",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U08"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K022",
+      "label_en": "Climatology",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U08"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K023",
+      "label_en": "Tropical cyclones",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U08"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K024",
+      "label_en": "Flooding",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U07"
+      ],
+      "related_domains": [
+        "U32",
+        "U08"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K025",
+      "label_en": "Drought",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U08"
+      ],
+      "related_domains": [
+        "U07"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K026",
+      "label_en": "Landslides",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U06"
+      ],
+      "related_domains": [
+        "U32"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K027",
+      "label_en": "Earthquake hazards",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U06"
+      ],
+      "related_domains": [
+        "U32"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K028",
+      "label_en": "Tsunami hazards",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U09"
+      ],
+      "related_domains": [
+        "U32"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K029",
+      "label_en": "Coastal erosion",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U09"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K030",
+      "label_en": "Climate vulnerability",
+      "legacy_family": "Atmosphere and hazards",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [
+        "U08"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K031",
+      "label_en": "Biodiversity",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U11"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K032",
+      "label_en": "Terrestrial ecology",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K033",
+      "label_en": "Marine ecology",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [
+        "U09"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K034",
+      "label_en": "Freshwater ecology",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [
+        "U07"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K035",
+      "label_en": "Forestry",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U13"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K036",
+      "label_en": "Wetlands",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [
+        "U07"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K037",
+      "label_en": "Protected areas",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K038",
+      "label_en": "Wildlife",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U11"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K039",
+      "label_en": "Environmental quality",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K040",
+      "label_en": "Conservation and restoration",
+      "legacy_family": "Ecology",
+      "parents": [
+        "U12"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K041",
+      "label_en": "Agriculture",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U13"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K042",
+      "label_en": "Agricultural production",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U13"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K043",
+      "label_en": "Irrigation",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U07"
+      ],
+      "related_domains": [
+        "U13"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K044",
+      "label_en": "Fisheries",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U13"
+      ],
+      "related_domains": [
+        "U09"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K045",
+      "label_en": "Aquaculture",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U13"
+      ],
+      "related_domains": [
+        "U09"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K046",
+      "label_en": "Land use",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K047",
+      "label_en": "Land cover",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K048",
+      "label_en": "Cadastral information",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [
+        "U23"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K049",
+      "label_en": "Land management",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K050",
+      "label_en": "Natural resource utilization",
+      "legacy_family": "Land and agriculture",
+      "parents": [
+        "U19"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K051",
+      "label_en": "Electrical generation",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U19"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K052",
+      "label_en": "Electrical transmission",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U19"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K053",
+      "label_en": "Electrical distribution",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U19"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K054",
+      "label_en": "Renewable energy",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U19"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K055",
+      "label_en": "Hydroelectricity",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U19"
+      ],
+      "related_domains": [
+        "U07"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K056",
+      "label_en": "Fuel infrastructure",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U19"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K057",
+      "label_en": "Drinking-water infrastructure",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U17"
+      ],
+      "related_domains": [
+        "U07"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K058",
+      "label_en": "Wastewater infrastructure",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U17"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K059",
+      "label_en": "Solid waste",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U17"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K060",
+      "label_en": "Telecommunications",
+      "legacy_family": "Utilities",
+      "parents": [
+        "U17"
+      ],
+      "related_domains": [
+        "U02"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K061",
+      "label_en": "Roads and highways",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K062",
+      "label_en": "Bridges",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K063",
+      "label_en": "Public transportation",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K064",
+      "label_en": "Rail infrastructure",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K065",
+      "label_en": "Aviation",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [
+        "U16"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K066",
+      "label_en": "Airports",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K067",
+      "label_en": "Airspace",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [
+        "U05"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K068",
+      "label_en": "Maritime transportation",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K069",
+      "label_en": "Ports and harbors",
+      "legacy_family": "Transport",
+      "parents": [
+        "U18"
+      ],
+      "related_domains": [
+        "U17"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K070",
+      "label_en": "Public facilities",
+      "legacy_family": "Transport",
+      "parents": [
+        "U17"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K071",
+      "label_en": "Demographics",
+      "legacy_family": "Human development",
+      "parents": [
+        "U25"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K072",
+      "label_en": "Population geography",
+      "legacy_family": "Human development",
+      "parents": [
+        "U25"
+      ],
+      "related_domains": [
+        "U05"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K073",
+      "label_en": "Housing",
+      "legacy_family": "Human development",
+      "parents": [
+        "U17"
+      ],
+      "related_domains": [
+        "U26"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K074",
+      "label_en": "Public health",
+      "legacy_family": "Human development",
+      "parents": [
+        "U15"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K075",
+      "label_en": "Healthcare facilities",
+      "legacy_family": "Human development",
+      "parents": [
+        "U15"
+      ],
+      "related_domains": [
+        "U17"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K076",
+      "label_en": "Education",
+      "legacy_family": "Human development",
+      "parents": [
+        "U27"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K077",
+      "label_en": "Employment",
+      "legacy_family": "Human development",
+      "parents": [
+        "U21"
+      ],
+      "related_domains": [
+        "U26"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K078",
+      "label_en": "Social services",
+      "legacy_family": "Human development",
+      "parents": [
+        "U26"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K079",
+      "label_en": "Emergency management",
+      "legacy_family": "Human development",
+      "parents": [
+        "U32"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K080",
+      "label_en": "Community development",
+      "legacy_family": "Human development",
+      "parents": [
+        "U26"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K081",
+      "label_en": "Economic activity",
+      "legacy_family": "Economics",
+      "parents": [
+        "U21"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K082",
+      "label_en": "Industry",
+      "legacy_family": "Economics",
+      "parents": [
+        "U21"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K083",
+      "label_en": "Commerce",
+      "legacy_family": "Economics",
+      "parents": [
+        "U21"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K084",
+      "label_en": "Tourism",
+      "legacy_family": "Economics",
+      "parents": [
+        "U21"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K085",
+      "label_en": "Public finance",
+      "legacy_family": "Economics",
+      "parents": [
+        "U20"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K086",
+      "label_en": "Federal funding",
+      "legacy_family": "Economics",
+      "parents": [
+        "U20"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K087",
+      "label_en": "Grants and assistance",
+      "legacy_family": "Economics",
+      "parents": [
+        "U20"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K088",
+      "label_en": "Procurement",
+      "legacy_family": "Economics",
+      "parents": [
+        "U22"
+      ],
+      "related_domains": [
+        "U20"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K089",
+      "label_en": "Government contracts",
+      "legacy_family": "Economics",
+      "parents": [
+        "U22"
+      ],
+      "related_domains": [
+        "U20",
+        "U23"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K090",
+      "label_en": "Capital projects",
+      "legacy_family": "Economics",
+      "parents": [
+        "U17"
+      ],
+      "related_domains": [
+        "U20"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K091",
+      "label_en": "Government administration",
+      "legacy_family": "Government",
+      "parents": [
+        "U22"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K092",
+      "label_en": "Institutional organization",
+      "legacy_family": "Government",
+      "parents": [
+        "U22"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K093",
+      "label_en": "Legislation",
+      "legacy_family": "Government",
+      "parents": [
+        "U23"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K094",
+      "label_en": "Administrative regulation",
+      "legacy_family": "Government",
+      "parents": [
+        "U23"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K095",
+      "label_en": "Judicial records",
+      "legacy_family": "Government",
+      "parents": [
+        "U23"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K096",
+      "label_en": "Permitting",
+      "legacy_family": "Government",
+      "parents": [
+        "U23"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K097",
+      "label_en": "Environmental regulation",
+      "legacy_family": "Government",
+      "parents": [
+        "U23"
+      ],
+      "related_domains": [
+        "U12"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K098",
+      "label_en": "Land-use planning",
+      "legacy_family": "Government",
+      "parents": [
+        "U05"
+      ],
+      "related_domains": [
+        "U22"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K099",
+      "label_en": "Public policy",
+      "legacy_family": "Government",
+      "parents": [
+        "U22"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K100",
+      "label_en": "Public records",
+      "legacy_family": "Government",
+      "parents": [
+        "U22"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K101",
+      "label_en": "Puerto Rican history",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K102",
+      "label_en": "Archaeology",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K103",
+      "label_en": "Architecture",
+      "legacy_family": "History",
+      "parents": [
+        "U16"
+      ],
+      "related_domains": [
+        "U30"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K104",
+      "label_en": "Historical geography",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [
+        "U05"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K105",
+      "label_en": "Historical cartography",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [
+        "U05"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K106",
+      "label_en": "Historical photography",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [
+        "U31"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K107",
+      "label_en": "Cultural heritage",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [
+        "U30"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K108",
+      "label_en": "Historical newspapers",
+      "legacy_family": "History",
+      "parents": [
+        "U31"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K109",
+      "label_en": "Genealogical and population archives",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [
+        "U25"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K110",
+      "label_en": "Historical infrastructure",
+      "legacy_family": "History",
+      "parents": [
+        "U28"
+      ],
+      "related_domains": [
+        "U17"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K111",
+      "label_en": "Scientific research",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U27"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K112",
+      "label_en": "Academic publications",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U27"
+      ],
+      "related_domains": [
+        "U31"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K113",
+      "label_en": "Engineering",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U16"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K114",
+      "label_en": "Astronomy",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U10"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K115",
+      "label_en": "Space observations",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U10"
+      ],
+      "related_domains": [
+        "U05"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K116",
+      "label_en": "Information systems",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U02"
+      ],
+      "related_domains": [],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K117",
+      "label_en": "Scientific instrumentation",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U16"
+      ],
+      "related_domains": [
+        "U27"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K118",
+      "label_en": "Technical standards",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U16"
+      ],
+      "related_domains": [
+        "U23"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K119",
+      "label_en": "Institutional archives",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U27"
+      ],
+      "related_domains": [
+        "U28"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K120",
+      "label_en": "Libraries and documentary collections",
+      "legacy_family": "Science and institutions",
+      "parents": [
+        "U27"
+      ],
+      "related_domains": [
+        "U28"
+      ],
+      "status": "LEGACY_PRESERVED_MAPPING_CANDIDATE"
+    },
+    {
+      "id": "K121",
+      "label_en": "Mathematics",
+      "label_es": "Matemáticas",
+      "parents": [
+        "U01"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K122",
+      "label_en": "Formal logic",
+      "label_es": "Lógica formal",
+      "parents": [
+        "U01"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K123",
+      "label_en": "Probability and statistics",
+      "label_es": "Probabilidad y estadística",
+      "parents": [
+        "U01"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K124",
+      "label_en": "Mechanics",
+      "label_es": "Mecánica",
+      "parents": [
+        "U03"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K125",
+      "label_en": "Optics",
+      "label_es": "Óptica",
+      "parents": [
+        "U03"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K126",
+      "label_en": "Electromagnetism",
+      "label_es": "Electromagnetismo",
+      "parents": [
+        "U03"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K127",
+      "label_en": "Thermodynamics",
+      "label_es": "Termodinámica",
+      "parents": [
+        "U03"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K128",
+      "label_en": "Particle and nuclear physics",
+      "label_es": "Física de partículas y nuclear",
+      "parents": [
+        "U03"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K129",
+      "label_en": "Analytical chemistry",
+      "label_es": "Química analítica",
+      "parents": [
+        "U04"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K130",
+      "label_en": "Organic chemistry",
+      "label_es": "Química orgánica",
+      "parents": [
+        "U04"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K131",
+      "label_en": "Inorganic chemistry",
+      "label_es": "Química inorgánica",
+      "parents": [
+        "U04"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K132",
+      "label_en": "Physical chemistry",
+      "label_es": "Fisicoquímica",
+      "parents": [
+        "U04"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K133",
+      "label_en": "Materials science",
+      "label_es": "Ciencia de materiales",
+      "parents": [
+        "U04"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K134",
+      "label_en": "Food science",
+      "label_es": "Ciencia de alimentos",
+      "parents": [
+        "U14"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K135",
+      "label_en": "Human nutrition",
+      "label_es": "Nutrición humana",
+      "parents": [
+        "U14"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K136",
+      "label_en": "Food safety",
+      "label_es": "Inocuidad alimentaria",
+      "parents": [
+        "U14"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K137",
+      "label_en": "Political science",
+      "label_es": "Ciencia política",
+      "parents": [
+        "U24"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K138",
+      "label_en": "Elections",
+      "label_es": "Elecciones",
+      "parents": [
+        "U24"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K139",
+      "label_en": "International relations",
+      "label_es": "Relaciones internacionales",
+      "parents": [
+        "U24"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K140",
+      "label_en": "Political institutions",
+      "label_es": "Instituciones políticas",
+      "parents": [
+        "U24"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K141",
+      "label_en": "Linguistics",
+      "label_es": "Lingüística",
+      "parents": [
+        "U29"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K142",
+      "label_en": "Philosophy",
+      "label_es": "Filosofía",
+      "parents": [
+        "U29"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K143",
+      "label_en": "Religious studies",
+      "label_es": "Estudios religiosos",
+      "parents": [
+        "U29"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K144",
+      "label_en": "Literature",
+      "label_es": "Literatura",
+      "parents": [
+        "U29"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K145",
+      "label_en": "Interdisciplinary research",
+      "label_es": "Investigación interdisciplinaria",
+      "parents": [
+        "U33"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K146",
+      "label_en": "Emerging research fields",
+      "label_es": "Campos emergentes de investigación",
+      "parents": [
+        "U33"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K147",
+      "label_en": "Cross-domain systems science",
+      "label_es": "Ciencia de sistemas interdisciplinarios",
+      "parents": [
+        "U33"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    },
+    {
+      "id": "K148",
+      "label_en": "Arts and recreation",
+      "label_es": "Artes y recreación",
+      "parents": [
+        "U30"
+      ],
+      "related_domains": [],
+      "status": "PROPOSED_ADDITIVE"
+    }
+  ],
+  "invariants": {
+    "unique_ids": true,
+    "all_parent_references_resolved": true,
+    "acyclic_by_construction": true,
+    "legacy_ids_preserved": 120,
+    "domain_primary_seed_coverage": 33
+  },
+  "note": "Internal design coverage only; external native concepts not exhaustively reconciled."
+}

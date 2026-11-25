@@ -32,3 +32,6 @@ f85b8cc8ed6fc7a9ad317f1baf5cf1af7afbfc5ba33729e7cab3dba93daae595  ./tests/test_h
 19abe86105e4d706ce15f35025444695707bc84aa49010a27636f33f21d97576  ./prdc/hardening.py
 34fa63dc18a85114e8fa0a2787edcee51b96268df540a89a0f44d4d29ef0e130  ./tests/test_hardening_boundaries.py
 d02cf345e3616d4c1b60b42e94f3595beb0e3505087b33999e05e78b45a706c6  ./specifications/CH-boundaries-candidate.md
+e7107e275135f83cdeabfe40249454f94fab61e946ed282c2a783e5507aac1bd  ./prdc/schema_v3.py
+e064339b71217b75434d6bf893a1256e25396083f5d08a7adbc181b3ee414d6b  ./tests/test_schema_v3.py
+e52d12c8e1bcfc8f19af5732a08d0d39a72ef8280c83a896651e6cdaae64cbc6  ./specifications/APF-schema-v3-candidate.md

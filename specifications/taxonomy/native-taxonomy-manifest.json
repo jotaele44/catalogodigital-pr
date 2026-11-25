@@ -1,0 +1,148 @@
+{
+  "operation": "UDC-APF-0004",
+  "observed_date": "2026-11-25",
+  "state": "PARTIAL",
+  "native_inventory_acquisition": "BLOCKED_DNS_IN_LOCAL_RUNTIME",
+  "sources": [
+    {
+      "scheme": "FORD",
+      "version": "2015",
+      "url": "https://unstats.un.org/unsd/classifications/Family/Detail/1039",
+      "native_count": {
+        "broad": 6,
+        "subfields": 42
+      },
+      "state": "VERSION_IDENTIFIED_BYTES_OPEN",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "ISIC",
+      "version": "Rev.5 structure; Rev.4 historical",
+      "url": "https://unstats.un.org/unsd/classifications/econ/",
+      "state": "VERSION_IDENTIFIED_BYTES_OPEN",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "COFOG",
+      "version": "1999",
+      "url": "https://unstats.un.org/unsd/classifications/econ/",
+      "state": "VERSION_IDENTIFIED_BYTES_OPEN",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "ISCED-F",
+      "version": "2013",
+      "url": "https://unstats.un.org/unsd/classifications/Family/Detail/1046",
+      "state": "VERSION_IDENTIFIED_BYTES_OPEN",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "GCMD",
+      "version": null,
+      "url": "https://gcmd.earthdata.nasa.gov/static/kms/",
+      "state": "RELEASE_UNRESOLVED",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "LCC",
+      "version": null,
+      "url": "https://www.loc.gov/catdir/cpso/lcco/",
+      "state": "RELEASE_UNRESOLVED",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "DCAT",
+      "version": "3 / 2024-08-22",
+      "url": "https://www.w3.org/TR/2024/REC-vocab-dcat-3-20240822/",
+      "state": "VERSION_IDENTIFIED_BYTES_OPEN",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "IANA",
+      "version": null,
+      "url": "https://www.iana.org/assignments/media-types/",
+      "state": "RELEASE_UNRESOLVED",
+      "sha256": null,
+      "acquired": false
+    },
+    {
+      "scheme": "PRONOM",
+      "version": null,
+      "url": "https://www.nationalarchives.gov.uk/PRONOM/",
+      "state": "RELEASE_UNRESOLVED",
+      "sha256": null,
+      "acquired": false
+    }
+  ],
+  "ford_broad_candidate_mapping": [
+    {
+      "code": "1",
+      "domains": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06",
+        "U07",
+        "U08",
+        "U09",
+        "U10",
+        "U11",
+        "U12"
+      ]
+    },
+    {
+      "code": "2",
+      "domains": [
+        "U16",
+        "U17",
+        "U18",
+        "U19"
+      ]
+    },
+    {
+      "code": "3",
+      "domains": [
+        "U14",
+        "U15"
+      ]
+    },
+    {
+      "code": "4",
+      "domains": [
+        "U13",
+        "U11"
+      ]
+    },
+    {
+      "code": "5",
+      "domains": [
+        "U21",
+        "U22",
+        "U23",
+        "U24",
+        "U25",
+        "U26",
+        "U27",
+        "U31"
+      ]
+    },
+    {
+      "code": "6",
+      "domains": [
+        "U28",
+        "U29",
+        "U30"
+      ]
+    }
+  ],
+  "mapping_kind": "BROAD_RELATED_CANDIDATE_NOT_EQUIVALENCE"
+}

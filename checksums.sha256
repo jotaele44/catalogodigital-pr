@@ -24,3 +24,6 @@ ff3c994bd81324e1d6d4b68fd47fcb7b5890d54092a2c54628c9e90978cb8cc8  ./specificatio
 8ea3a767b36a6463241d97ac321c13a0647de7ee71eb476c1fffdafc5b173d6d  ./standards/prvds/access.json
 f82db89c01da5d1c33872da467e882df42aa4c4c4482534c0e5c1c9827233c64  ./tests/test_contracts.py
 55a38b4b13b1ccf6b3b0253726ba60bde465acccd6b332025b6db4711b71d844  ./tests/test_foundation.py
+7182cea759d780c57676256e987c379f493ab2bdc5b3c357a339c85fb4c118be  ./prdc/evidence.py
+1596562ad344e52fad793f60be8e7114d7b90dc67353997371f837c08841322d  ./tests/test_evidence_candidate.py
+04f556c35c5e5d2daa1e0b76af8dd41915d60bfad42a3fed55949926ea4d5e24  ./specifications/CH-01-03-candidate.md

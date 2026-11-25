@@ -69,7 +69,8 @@ def install_fixture(db):
     for table in ('identity_conflict','rights_assertion','lifecycle_event','audit_event'):
         for op in ('UPDATE','DELETE'):
             guards += f"CREATE TRIGGER {table}_no_{op.lower()} BEFORE {op} ON {table} BEGIN SELECT RAISE(ABORT,'append only'); END;\n"
-    db.executescript('BEGIN;\n'+DDL+SQL+guards+'COMMIT;')
+    db.execute('PRAGMA recursive_triggers=ON')
+    db.executescript('BEGIN;\n'+DDL+SQL+guards+EXTRA_SQL+'COMMIT;')
 
 def require_receipt(db, receipt_id):
     row=db.execute('SELECT digest FROM evidence_receipt WHERE id=?',(receipt_id,)).fetchone()
@@ -119,7 +120,7 @@ def metadata_errors(record):
         elif typ=='string': ok=isinstance(value,str) and bool(value.strip())
         elif typ=='enum': ok=isinstance(value,str) and value in enums.get(name,set())
         elif typ=='array': ok=isinstance(value,list) and bool(value) and all(isinstance(v,str) and (v=='UNKNOWN' or re.fullmatch(uuid_pattern,v)) for v in value)
-        elif typ=='object': ok=isinstance(value,dict) and value=={'state':'UNKNOWN'}
+        elif typ=='object': ok=valid_temporal(value)
         elif typ=='uri': ok=bool(valid_candidate_url(value))
         elif typ=='sha256': ok=isinstance(value,str) and bool(re.fullmatch('[0-9a-f]{64}',value))
         elif typ=='integer': ok=type(value) is int and value>=0
@@ -129,3 +130,51 @@ def metadata_errors(record):
         if not ok: errors.append('invalid '+name)
     if ('checksum' in record)!=('byte_count' in record): errors.append('artifact checksum and count must coexist')
     return errors
+
+# Current state is derived from the event stream, not a mutable projection.
+EXTRA_SQL = """
+CREATE VIEW version_state AS
+ SELECT v.id, coalesce((SELECT e.new_state FROM lifecycle_event e
+ WHERE e.version_id=v.id ORDER BY e.id DESC LIMIT 1),v.status) AS state
+ FROM version_detail v;
+CREATE TRIGGER current_unique BEFORE INSERT ON lifecycle_event
+ WHEN NEW.new_state='CURRENT' AND EXISTS(
+ SELECT 1 FROM relation own JOIN relation other ON own.parent=other.parent
+ JOIN version_state s ON s.id=other.child
+ WHERE own.child=NEW.version_id AND own.role='has_version'
+ AND other.role='has_version' AND other.child<>NEW.version_id AND s.state='CURRENT')
+ BEGIN SELECT RAISE(ABORT,'another current version'); END;
+CREATE TRIGGER protect_version_parent BEFORE DELETE ON relation
+ WHEN OLD.role='has_version' AND EXISTS(SELECT 1 FROM lifecycle_event WHERE version_id=OLD.child)
+ BEGIN SELECT RAISE(ABORT,'event-managed parent'); END;
+CREATE TRIGGER protect_version_detail BEFORE DELETE ON version_detail
+ WHEN EXISTS(SELECT 1 FROM lifecycle_event WHERE version_id=OLD.id)
+ BEGIN SELECT RAISE(ABORT,'event-managed version'); END;
+CREATE TRIGGER initial_version_candidate BEFORE INSERT ON version_detail
+ WHEN NEW.status NOT IN ('CANDIDATE','UNKNOWN')
+ BEGIN SELECT RAISE(ABORT,'initial candidate state required'); END;
+"""
+
+def effective_rights(db, distribution):
+    """Conservative intersection of assertions; no claim of legal authorization."""
+    rows=db.execute('SELECT access_right,use_right,redistribution_right,receipt_id FROM rights_assertion WHERE distribution_id=?',(distribution,)).fetchall()
+    result={}
+    for i,key in enumerate(('access','use','redistribution')):
+        values={row[i] for row in rows}
+        if 'DENY' in values: result[key]='DENY'
+        elif values=={'ALLOW'}:
+            try:
+                for row in rows: require_receipt(db,row[3])
+                result[key]='ALLOW'
+            except ValueError: result[key]='UNKNOWN'
+        else: result[key]='UNKNOWN'
+    return result
+
+def valid_temporal(value):
+    """Explicit unknown or closed offset-aware observation interval."""
+    if value=={'state':'UNKNOWN'}: return True
+    if not isinstance(value,dict) or set(value)!={'start','end'}: return False
+    try:
+        a,b=(datetime.fromisoformat(value[k]) for k in ('start','end'))
+        return a.utcoffset() is not None and b.utcoffset() is not None and a<=b
+    except (TypeError,ValueError): return False

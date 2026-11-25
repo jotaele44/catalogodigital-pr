@@ -1,0 +1,81 @@
+{
+  "version": "1.1.0-draft",
+  "classes": [
+    {
+      "code": "FILE",
+      "definition": "Exact direct file"
+    },
+    {
+      "code": "PERSISTENT_FILE",
+      "definition": "Persistent resolver to exact file"
+    },
+    {
+      "code": "EXPORT",
+      "definition": "Complete export"
+    },
+    {
+      "code": "QUERY",
+      "definition": "Preconfigured query"
+    },
+    {
+      "code": "PAGINATED",
+      "definition": "Reproducible paginated collection"
+    },
+    {
+      "code": "DOWNLOAD_PAGE",
+      "definition": "Specific download page"
+    },
+    {
+      "code": "LANDING",
+      "definition": "Asset landing page"
+    },
+    {
+      "code": "COLLECTION",
+      "definition": "Collection or directory"
+    },
+    {
+      "code": "SEARCH",
+      "definition": "Search interface"
+    },
+    {
+      "code": "HOME",
+      "definition": "Institution homepage"
+    },
+    {
+      "code": "PHYSICAL",
+      "definition": "Physical holding"
+    },
+    {
+      "code": "UNRESOLVED",
+      "definition": "Unknown or unavailable"
+    }
+  ],
+  "scope": [
+    "COMPLETE_FILE",
+    "COMPLETE_DATASET",
+    "COMPLETE_LAYER",
+    "FILTERED_SUBSET",
+    "PAGINATED_COLLECTION",
+    "SAMPLE",
+    "METADATA_ONLY",
+    "DOCUMENT",
+    "PREVIEW",
+    "UNKNOWN"
+  ],
+  "legacy_policy": "Retire DDA and DA numeric codes; migrate by semantics, not numeric equivalence. RESTRICTED is authorization, not directness. PHYSICAL is not an online URL.",
+  "default": "Only qualified FILE, PERSISTENT_FILE, EXPORT or QUERY links receive primary direct access actions; download page is labeled fallback.",
+  "authorization": [
+    "PUBLIC",
+    "AUTHENTICATED",
+    "RESTRICTED",
+    "COMMERCIAL",
+    "UNKNOWN"
+  ],
+  "stability": [
+    "PERMANENT",
+    "VERSIONED",
+    "TEMPORARY",
+    "EXPIRING",
+    "UNKNOWN"
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "code": "CSV",
+    "family": "TABULAR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "TSV",
+    "family": "TABULAR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "XLSX",
+    "family": "TABULAR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "PARQUET",
+    "family": "TABULAR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "JSON",
+    "family": "STRUCTURED",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "XML",
+    "family": "STRUCTURED",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "YAML",
+    "family": "STRUCTURED",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "JSON_LD",
+    "family": "STRUCTURED",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "GEOJSON",
+    "family": "VECTOR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "KML",
+    "family": "VECTOR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "SHAPEFILE",
+    "family": "VECTOR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "GEOPACKAGE",
+    "family": "VECTOR",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "GEOTIFF",
+    "family": "RASTER",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "COG",
+    "family": "RASTER",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "JPEG2000",
+    "family": "RASTER",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "NETCDF",
+    "family": "MULTIDIMENSIONAL",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "HDF4",
+    "family": "MULTIDIMENSIONAL",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "HDF5",
+    "family": "MULTIDIMENSIONAL",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "GRIB",
+    "family": "MULTIDIMENSIONAL",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "ZARR",
+    "family": "MULTIDIMENSIONAL",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "LAS",
+    "family": "POINT_CLOUD",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "LAZ",
+    "family": "POINT_CLOUD",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "COPC",
+    "family": "POINT_CLOUD",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "PDF",
+    "family": "DOCUMENT",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "DOCX",
+    "family": "DOCUMENT",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "TXT",
+    "family": "DOCUMENT",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "HTML",
+    "family": "DOCUMENT",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "ZIP",
+    "family": "ARCHIVE",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "TAR",
+    "family": "ARCHIVE",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "GZIP",
+    "family": "ARCHIVE",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "7Z",
+    "family": "ARCHIVE",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "PNG",
+    "family": "IMAGE",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "JPEG",
+    "family": "IMAGE",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "MP4",
+    "family": "MULTIMEDIA",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "WAV",
+    "family": "MULTIMEDIA",
+    "status": "CANDIDATE"
+  },
+  {
+    "code": "UNKNOWN",
+    "family": "UNKNOWN",
+    "status": "CANDIDATE"
+  }
+]

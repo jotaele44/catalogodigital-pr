@@ -1,0 +1,90 @@
+{
+  "domains": [
+    {
+      "code": "PR_EXECUTIVE",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "PR_PUBLIC_CORPORATION",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "PR_MUNICIPAL",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "PR_LEGISLATIVE_JUDICIAL",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "US_FEDERAL",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "FEDERAL_RESEARCH",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "INTERNATIONAL_GOVERNMENT",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "FOREIGN_SCIENCE",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "ACADEMIC",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "RESEARCH_CONSORTIUM",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "UTILITY_OPERATOR",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "COMMERCIAL",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "NONPROFIT_COMMUNITY",
+      "state": "CANDIDATE"
+    },
+    {
+      "code": "INDEPENDENT_ARCHIVE",
+      "state": "CANDIDATE"
+    }
+  ],
+  "modes": [
+    "CLOSED",
+    "OPEN"
+  ],
+  "institution_kinds": [
+    "institution",
+    "organizational_unit",
+    "program"
+  ],
+  "roles": [
+    "PRODUCER",
+    "PUBLISHER",
+    "CUSTODIAN",
+    "DISTRIBUTOR",
+    "AUTHORITY"
+  ],
+  "member_dispositions": [
+    "CANDIDATE",
+    "IN_SCOPE",
+    "EXCLUDED",
+    "UNRESOLVED"
+  ],
+  "status": [
+    "ACTIVE",
+    "INACTIVE",
+    "REORGANIZED",
+    "HISTORICAL",
+    "UNKNOWN"
+  ],
+  "denominator_policy": "Closed source snapshots require scope, source receipt, reported count and exact retrieved membership; open universes never imply exhaustive total; unknown or zero denominator is not measurable. Classification is not verification."
+}

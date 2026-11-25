@@ -1,0 +1,135 @@
+[
+  {
+    "field": "asset_id",
+    "type": "uuid",
+    "applicability": "required",
+    "definition_en": "Opaque permanent identifier",
+    "definition_es": "Identificador permanente opaco"
+  },
+  {
+    "field": "title",
+    "type": "string",
+    "applicability": "required",
+    "definition_en": "Source-supported title",
+    "definition_es": "Título respaldado por la fuente"
+  },
+  {
+    "field": "kind",
+    "type": "enum",
+    "applicability": "required",
+    "definition_en": "dataset or document",
+    "definition_es": "Conjunto de datos o documento"
+  },
+  {
+    "field": "language",
+    "type": "string",
+    "applicability": "conditional",
+    "definition_en": "Language tag",
+    "definition_es": "Etiqueta de idioma"
+  },
+  {
+    "field": "source_ref",
+    "type": "uuid",
+    "applicability": "required",
+    "definition_en": "Original source identity",
+    "definition_es": "Identidad de la fuente original"
+  },
+  {
+    "field": "version_ref",
+    "type": "uuid",
+    "applicability": "conditional",
+    "definition_en": "Exact version or explicit unknown",
+    "definition_es": "Versión exacta o desconocida explícitamente"
+  },
+  {
+    "field": "geography",
+    "type": "array",
+    "applicability": "required",
+    "definition_en": "Geographic references or explicit unknown",
+    "definition_es": "Referencias geográficas o desconocido explícito"
+  },
+  {
+    "field": "temporal_coverage",
+    "type": "object",
+    "applicability": "required",
+    "definition_en": "Interval or explicit unknown",
+    "definition_es": "Intervalo o desconocido explícito"
+  },
+  {
+    "field": "subjects",
+    "type": "array",
+    "applicability": "required",
+    "definition_en": "Knowledge domain references",
+    "definition_es": "Referencias a dominios de conocimiento"
+  },
+  {
+    "field": "access_class",
+    "type": "enum",
+    "applicability": "required",
+    "definition_en": "Directness independent of rights",
+    "definition_es": "Acceso directo independiente de los derechos"
+  },
+  {
+    "field": "scope",
+    "type": "enum",
+    "applicability": "required",
+    "definition_en": "Response completeness",
+    "definition_es": "Alcance y completitud de la respuesta"
+  },
+  {
+    "field": "url",
+    "type": "uri",
+    "applicability": "conditional",
+    "definition_en": "Exact public link",
+    "definition_es": "Enlace público exacto"
+  },
+  {
+    "field": "format",
+    "type": "string",
+    "applicability": "conditional",
+    "definition_en": "Native format",
+    "definition_es": "Formato nativo"
+  },
+  {
+    "field": "rights",
+    "type": "enum",
+    "applicability": "required",
+    "definition_en": "Access and redistribution separately assessed",
+    "definition_es": "Acceso y redistribución evaluados por separado"
+  },
+  {
+    "field": "evidence_ref",
+    "type": "uuid",
+    "applicability": "conditional",
+    "definition_en": "Required for qualified assertions",
+    "definition_es": "Obligatoria para afirmaciones cualificadas"
+  },
+  {
+    "field": "last_verified",
+    "type": "datetime",
+    "applicability": "conditional",
+    "definition_en": "Actual verification timestamp",
+    "definition_es": "Fecha y hora de verificación real"
+  },
+  {
+    "field": "status",
+    "type": "enum",
+    "applicability": "required",
+    "definition_en": "Discovery or qualification state",
+    "definition_es": "Estado de descubrimiento o cualificación"
+  },
+  {
+    "field": "checksum",
+    "type": "sha256",
+    "applicability": "conditional",
+    "definition_en": "Only for retrieved bytes",
+    "definition_es": "Solo para bytes recuperados"
+  },
+  {
+    "field": "byte_count",
+    "type": "integer",
+    "applicability": "conditional",
+    "definition_en": "Only measured or source reported with provenance",
+    "definition_es": "Medido o declarado por la fuente con procedencia"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "code": "M01",
+    "label_en": "Municipal organization"
+  },
+  {
+    "code": "M02",
+    "label_en": "Legislature"
+  },
+  {
+    "code": "M03",
+    "label_en": "Ordinances"
+  },
+  {
+    "code": "M04",
+    "label_en": "Resolutions"
+  },
+  {
+    "code": "M05",
+    "label_en": "Budgets"
+  },
+  {
+    "code": "M06",
+    "label_en": "Financial statements"
+  },
+  {
+    "code": "M07",
+    "label_en": "Contracts"
+  },
+  {
+    "code": "M08",
+    "label_en": "Procurement"
+  },
+  {
+    "code": "M09",
+    "label_en": "Federal funding"
+  },
+  {
+    "code": "M10",
+    "label_en": "Capital projects"
+  },
+  {
+    "code": "M11",
+    "label_en": "Territorial plans"
+  },
+  {
+    "code": "M12",
+    "label_en": "Land use"
+  },
+  {
+    "code": "M13",
+    "label_en": "Zoning"
+  },
+  {
+    "code": "M14",
+    "label_en": "Permits"
+  },
+  {
+    "code": "M15",
+    "label_en": "Cadastre"
+  },
+  {
+    "code": "M16",
+    "label_en": "GIS"
+  },
+  {
+    "code": "M17",
+    "label_en": "Boundaries"
+  },
+  {
+    "code": "M18",
+    "label_en": "Barrios"
+  },
+  {
+    "code": "M19",
+    "label_en": "Communities"
+  },
+  {
+    "code": "M20",
+    "label_en": "Municipal property"
+  },
+  {
+    "code": "M21",
+    "label_en": "Buildings"
+  },
+  {
+    "code": "M22",
+    "label_en": "Roads and bridges"
+  },
+  {
+    "code": "M23",
+    "label_en": "Transport"
+  },
+  {
+    "code": "M24",
+    "label_en": "Stormwater"
+  },
+  {
+    "code": "M25",
+    "label_en": "Water infrastructure"
+  },
+  {
+    "code": "M26",
+    "label_en": "Electric infrastructure"
+  },
+  {
+    "code": "M27",
+    "label_en": "Waste"
+  },
+  {
+    "code": "M28",
+    "label_en": "Emergency management"
+  },
+  {
+    "code": "M29",
+    "label_en": "Hazard mitigation"
+  },
+  {
+    "code": "M30",
+    "label_en": "Disaster recovery"
+  },
+  {
+    "code": "M31",
+    "label_en": "Environmental studies"
+  },
+  {
+    "code": "M32",
+    "label_en": "Natural resources"
+  },
+  {
+    "code": "M33",
+    "label_en": "Economic development"
+  },
+  {
+    "code": "M34",
+    "label_en": "Tourism"
+  },
+  {
+    "code": "M35",
+    "label_en": "Recreation"
+  },
+  {
+    "code": "M36",
+    "label_en": "Archives"
+  },
+  {
+    "code": "M37",
+    "label_en": "Heritage"
+  },
+  {
+    "code": "M38",
+    "label_en": "Historical maps and photos"
+  },
+  {
+    "code": "M39",
+    "label_en": "Statistics"
+  },
+  {
+    "code": "M40",
+    "label_en": "Public services"
+  }
+]

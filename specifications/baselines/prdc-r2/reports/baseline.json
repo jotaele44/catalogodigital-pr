@@ -1,0 +1,20 @@
+{
+  "operation_id": "PRDC-APF-CLOSURE-02",
+  "remote_repository": "jotaele44/catalogodigital-pr",
+  "repository_id": "1470636558",
+  "remote_main": "92778b85504627273f1f47a64bf1eca83b98ead0",
+  "base_tree": "0a3f723bdfa209a2ba9fd359765aec82492bcf45",
+  "remote_preserved_blobs": {
+    ".gitignore": "6ff7378f20ee9570a320cf59ae0fe9c5b100e722",
+    "LICENSE": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  "remote_original_readme_blob": "096470a4c0b7be55c46a7fd5cb448a1fa4d3f926",
+  "predecessor_archive_sha256": "71891d4cb5c29b5e14c64f84f91161841712bbb24d48f85f438c5af1ea7dcc1a",
+  "predecessor_apf_sha256": "2d9b751079f09e4ccfdf67c5eee39426cb2dc5071a7fe033285961a790cec391",
+  "predecessor_manifest_verified": 18,
+  "predecessor_tests_replayed": 12,
+  "candidate_local_tests": 48,
+  "real_source_adapters_qualified": 0,
+  "publication": "WITHHELD",
+  "afk": "WITHHELD"
+}

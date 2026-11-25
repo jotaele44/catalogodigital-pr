@@ -1,0 +1,77 @@
+[
+  {
+    "code": "CMR",
+    "reference": "NASA Earthdata",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "STAC",
+    "reference": "Copernicus",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "ERDDAP",
+    "reference": "NOAA",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "THREDDS",
+    "reference": "NOAA scientific archives",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "SCIENTIFIC_API",
+    "reference": "USGS",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "ARCGIS_REST",
+    "reference": "SIGE",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "SOCRATA",
+    "reference": "ACAA legacy",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "CKAN",
+    "reference": "Government open data",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "OGC",
+    "reference": "Geographic services",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "DATACITE",
+    "reference": "Research repositories",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "OAI_PMH",
+    "reference": "University archives",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "HTML_CATALOG",
+    "reference": "Municipal websites",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "DOCUMENT_ARCHIVE",
+    "reference": "Historical archives",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "GIT",
+    "reference": "Scientific repositories",
+    "qualification": "NOT_TESTED_LIVE"
+  },
+  {
+    "code": "HTTP_S3",
+    "reference": "Cloud or static files",
+    "qualification": "NOT_TESTED_LIVE"
+  }
+]

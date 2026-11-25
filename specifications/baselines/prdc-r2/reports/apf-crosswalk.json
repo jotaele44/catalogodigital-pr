@@ -1,0 +1,273 @@
+[
+  {
+    "id": "APF-D01",
+    "component": "Mission/scope",
+    "gates": [
+      "APG-01",
+      "APG-17"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D02",
+    "component": "Geographic universe",
+    "gates": [
+      "APG-09",
+      "APG-22"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D03",
+    "component": "Knowledge taxonomy",
+    "gates": [
+      "APG-08"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D04",
+    "component": "Data hierarchy",
+    "gates": [
+      "APG-07",
+      "APG-11"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D05",
+    "component": "Source entity universe",
+    "gates": [
+      "APG-19",
+      "APG-22"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D06",
+    "component": "Institutional hierarchy",
+    "gates": [
+      "APG-07",
+      "APG-11",
+      "APG-19"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D07",
+    "component": "Dataset identity",
+    "gates": [
+      "APG-03",
+      "APG-07",
+      "APG-11"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D08",
+    "component": "Metadata contracts",
+    "gates": [
+      "APG-08"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D09",
+    "component": "Dataset versioning",
+    "gates": [
+      "APG-07",
+      "APG-11"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D10",
+    "component": "File inventory",
+    "gates": [
+      "APG-07",
+      "APG-20"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D11",
+    "component": "Direct access",
+    "gates": [
+      "APG-05",
+      "APG-10",
+      "APG-20"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D12",
+    "component": "Geographic relationships",
+    "gates": [
+      "APG-07",
+      "APG-09",
+      "APG-22"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D13",
+    "component": "Temporal relationships",
+    "gates": [
+      "APG-07",
+      "APG-11"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D14",
+    "component": "Source provenance",
+    "gates": [
+      "APG-13"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D15",
+    "component": "Data quality",
+    "gates": [
+      "APG-13"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D16",
+    "component": "Licensing",
+    "gates": [
+      "APG-12",
+      "APG-13"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D17",
+    "component": "Discovery architecture",
+    "gates": [
+      "APG-21",
+      "APG-22"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D18",
+    "component": "Acquisition architecture",
+    "gates": [
+      "APG-10",
+      "APG-21"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D19",
+    "component": "Storage architecture",
+    "gates": [
+      "APG-14",
+      "APG-23"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D20",
+    "component": "Database relationships",
+    "gates": [
+      "APG-04",
+      "APG-07",
+      "APG-11",
+      "APG-18",
+      "APG-23"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D21",
+    "component": "Search architecture",
+    "gates": [
+      "APG-14"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D22",
+    "component": "User interface",
+    "gates": [
+      "APG-17"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D23",
+    "component": "Update architecture",
+    "gates": [
+      "APG-11",
+      "APG-15"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D24",
+    "component": "Execution supervision",
+    "gates": [
+      "APG-15"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D25",
+    "component": "Security",
+    "gates": [
+      "APG-12"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D26",
+    "component": "Technical dependencies",
+    "gates": [
+      "APG-01",
+      "APG-14",
+      "APG-16"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D27",
+    "component": "Testing architecture",
+    "gates": [
+      "APG-16",
+      "APG-17",
+      "APG-21"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D28",
+    "component": "Coverage metrics",
+    "gates": [
+      "APG-06",
+      "APG-19",
+      "APG-22"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D29",
+    "component": "Certification",
+    "gates": [
+      "APG-17"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  },
+  {
+    "id": "APF-D30",
+    "component": "Release roadmap",
+    "gates": [
+      "APG-16",
+      "APG-17"
+    ],
+    "status": "CANDIDATE_NOT_CERTIFIED"
+  }
+]

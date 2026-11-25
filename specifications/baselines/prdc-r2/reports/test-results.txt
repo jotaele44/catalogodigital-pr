@@ -1,0 +1,53 @@
+test_access_vocab (test_contracts.Contracts.test_access_vocab) ... ok
+test_access_wrong_kind (test_contracts.Contracts.test_access_wrong_kind) ... ok
+test_auth_independent (test_contracts.Contracts.test_auth_independent) ... ok
+test_closed_coverage (test_contracts.Contracts.test_closed_coverage) ... ok
+test_collection_cycle (test_contracts.Contracts.test_collection_cycle) ... ok
+test_cross_work_lineage (test_contracts.Contracts.test_cross_work_lineage) ... ok
+test_direct_sql_rejects_secret_url (test_contracts.Contracts.test_direct_sql_rejects_secret_url) ... ok
+test_distribution_owner (test_contracts.Contracts.test_distribution_owner) ... ok
+test_excess_membership (test_contracts.Contracts.test_excess_membership) ... ok
+test_hierarchy_cycle (test_contracts.Contracts.test_hierarchy_cycle) ... ok
+test_institution_roles_aliases (test_contracts.Contracts.test_institution_roles_aliases) ... ok
+test_invalid_institution (test_contracts.Contracts.test_invalid_institution) ... ok
+test_invalid_receipt_type (test_contracts.Contracts.test_invalid_receipt_type) ... ok
+test_invalid_role (test_contracts.Contracts.test_invalid_role) ... ok
+test_invalid_uuid_direct_sql (test_contracts.Contracts.test_invalid_uuid_direct_sql) ... ok
+test_metadata (test_contracts.Contracts.test_metadata) ... ok
+test_missing_denominator (test_contracts.Contracts.test_missing_denominator) ... ok
+test_missing_receipt (test_contracts.Contracts.test_missing_receipt) ... ok
+test_no_silent_migration (test_contracts.Contracts.test_no_silent_migration) ... ok
+test_noninteger_coverage (test_contracts.Contracts.test_noninteger_coverage) ... ok
+test_open_coverage (test_contracts.Contracts.test_open_coverage) ... ok
+test_owner_closure (test_contracts.Contracts.test_owner_closure) ... ok
+test_reference_protocols (test_contracts.Contracts.test_reference_protocols) ... ok
+test_reopen (test_contracts.Contracts.test_reopen) ... ok
+test_rule_immutable (test_contracts.Contracts.test_rule_immutable) ... ok
+test_schema_drift (test_contracts.Contracts.test_schema_drift) ... ok
+test_secret_url (test_contracts.Contracts.test_secret_url) ... ok
+test_shared_asset (test_contracts.Contracts.test_shared_asset) ... ok
+test_type_immutable (test_contracts.Contracts.test_type_immutable) ... ok
+test_unknown_kind (test_contracts.Contracts.test_unknown_kind) ... ok
+test_version_lineage (test_contracts.Contracts.test_version_lineage) ... ok
+test_version_owner (test_contracts.Contracts.test_version_owner) ... ok
+test_view_not_object (test_contracts.Contracts.test_view_not_object) ... ok
+test_vocabularies (test_contracts.Contracts.test_vocabularies) ... ok
+test_wrong_types (test_contracts.Contracts.test_wrong_types) ... ok
+test_zero_denominator (test_contracts.Contracts.test_zero_denominator) ... ok
+test_bad_url (test_foundation.Foundation.test_bad_url) ... ok
+test_fail_closed (test_foundation.Foundation.test_fail_closed) ... ok
+test_fk (test_foundation.Foundation.test_fk) ... ok
+test_immutable (test_foundation.Foundation.test_immutable) ... ok
+test_invalid_counts (test_foundation.Foundation.test_invalid_counts) ... ok
+test_no_delete (test_foundation.Foundation.test_no_delete) ... ok
+test_no_promotion (test_foundation.Foundation.test_no_promotion) ... ok
+test_pending (test_foundation.Foundation.test_pending) ... ok
+test_ratio (test_foundation.Foundation.test_ratio) ... ok
+test_relation (test_foundation.Foundation.test_relation) ... ok
+test_seeds (test_foundation.Foundation.test_seeds) ... ok
+test_unique (test_foundation.Foundation.test_unique) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.239s
+
+OK
